@@ -107,20 +107,20 @@
       <div class="row">
         <h1 class="work-text">How it Works</h1>
         <div class="section d-flex justify-content-center">
-          <div class="image-section">
+          <div class="image-section pb-5">
             <img src="../assets/imgcard.png" class="image" />
           </div>
-          <div class="col-lg">
+          <div class="col-lg pb-5">
             <div
               class="card"
               style="
                 width: 500px;
                 height: 100px;
-                min-width: 500px;
+                min-width: 30%;
+                max-width: 100%;
                 margin: 0 auto;
                 float: none;
                 margin-bottom: 10px;
-                border-radius: 30px;
                 box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.36);
               "
             >
@@ -140,7 +140,6 @@
                 margin: 0 auto;
                 float: none;
                 margin-bottom: 10px;
-                border-radius: 30px;
                 box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.36);
               "
             >
@@ -158,7 +157,6 @@
                 margin: 0 auto;
                 float: none;
                 margin-bottom: 10px;
-                border-radius: 30px;
                 box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.36);
               "
             >
@@ -192,6 +190,84 @@
     </div>
   </div>
   <!--------------end ------------>
+  <div class="account" id="account">
+    <div class="container text-center">
+      <div class="dropdown-section">
+        <div class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="true"
+          >
+            How To Open An Account
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#"></a></li>
+          </ul>
+        </div>
+        <div class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="true"
+          >
+            How To Book For Hospital
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#"></a></li>
+          </ul>
+        </div>
+        <div class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="true"
+          >
+            How To Book For Doctors
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#"></a></li>
+          </ul>
+        </div>
+        <div class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="true"
+          >
+            How to Book Clinician
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#"></a></li>
+            <li><a class="dropdown-item" href="#"></a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- <div class="footer">
     <div class="container">
       <div class="row">
@@ -291,6 +367,11 @@ export default {};
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+// * {
+//   margin: 20px;
+//   padding: 20px;
+//   box-sizing: border-box;
+// }
 #homepage {
   background: rgb(43, 13, 18);
   margin-left: 50px;
@@ -391,8 +472,8 @@ h3 {
   font-size: 16px;
   padding: 10px;
   font-weight: 400;
-  margin-bottom: 25px;
-  line-height: 25px;
+  margin-bottom: 20px;
+  // line-height: 25px;
 }
 /*------------------End of card-------------------------- */
 .middle {
@@ -406,7 +487,7 @@ h3 {
 }
 /*---------------------End of middle-----------*/
 #section {
-  min-height: 70vh;
+  min-height: 90vh;
   background: white;
   /* margin: 20px; */
   position: relative;
@@ -471,6 +552,57 @@ h3 {
   font-weight: 500;
   color: black;
 }
+/*----------------End  */
+#account {
+  min-height: 30vh;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.account {
+  margin: 20px;
+  padding-left: 15%;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+.dropdown-section {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.dropdown a {
+  margin: 20px;
+  width: 80%;
+  float: left;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 50px 20px 50px pink;
+  text-align: left;
+  left: 50px;
+  font-family: cursive;
+  color: black;
+}
+.dropdown-toggle {
+  float: right;
+}
+.nav-item {
+  padding: 10px;
+}
+
+.dropdown button {
+  width: 70%;
+  border: none;
+  float: center;
+  text-align: left;
+  box-shadow: 0px 0px 20px 30px pink;
+  font-size: 15px;
+  font-weight: 700;
+}
+// .nav-link .dropdown-toggle {
+//   float: right;
+// }
 // .footer {
 //   width: 100%;
 //   min-height: 40vh;
@@ -608,6 +740,17 @@ h3 {
     border-top-left-radius: 35%;
     box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.877);
     margin: 20px;
+  }
+  .dropdown a {
+    margin: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.12);
+    text-align: left;
+    left: 20px;
+    font-family: cursive;
+    color: black;
   }
 }
 </style>
