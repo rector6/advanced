@@ -39,7 +39,7 @@
         Get fast and better health services category
       </h2>
       <div class="cards pt-4 col">
-        <a href="" class="card">
+        <a href="patient" class="card">
           <img src="../assets/icons/Doc.png" class="card-header" />
           <h3 class="">Patients Account</h3>
           <p class="card-info">
