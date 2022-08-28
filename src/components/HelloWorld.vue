@@ -723,6 +723,8 @@ input {
   min-height: 50vh;
   margin-top: 3em;
   display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .company {
   // justify-content: center;
@@ -935,7 +937,7 @@ ul li a {
 //     margin-bottom: 30px;
 //   }
 // }
-@media (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   .card {
     width: 150px;
     height: 100%;
@@ -943,7 +945,9 @@ ul li a {
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.36);
     background: white;
     border: none;
-    padding: 20px;
+    margin: 20px;
+    outline: none;
+    text-decoration: none;
   }
   .card a {
     text-decoration: none;
