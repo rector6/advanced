@@ -544,18 +544,17 @@ h3 {
   color: black;
 }
 .image-section {
-  // width: 50%;
+  width: 50%;
   padding-left: 10px;
 }
 .image {
   height: 300px;
   width: 50%;
   align-items: center;
-  // float: right;
+  float: right;
   justify-content: center;
-  border-bottom-right-radius: 35%;
-  border-top-left-radius: 35%;
-  border-radius: 20px;
+  border-bottom-right-radius: 5em;
+  border-top-left-radius: 5em;
   border: 1px solid black;
   box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.877);
   margin: 20px;
@@ -584,7 +583,8 @@ h3 {
 }
 /*-------------End of section ---------*/
 #question {
-  min-height: 25vh;
+  min-height: 30vh;
+  width: 100%;
   background-color: lightcyan;
 }
 .q-head {
@@ -614,13 +614,13 @@ h3 {
 .dropdown a {
   margin: 20px;
   width: 80%;
-  // float: left;
+  float: left;
   height: 40px;
   margin-top: 20px;
   border-radius: 10px;
   box-shadow: 50px 20px 50px pink;
-  // text-align: left;
-  // left: 50px;
+  text-align: left;
+  left: 50px;
   font-family: cursive;
   color: black;
 }
@@ -722,7 +722,7 @@ input {
   width: 100%;
   min-height: 50vh;
   margin-top: 3em;
-  // display: flex;
+  display: flex;
 }
 .company {
   // justify-content: center;
@@ -747,14 +747,13 @@ input {
   margin-bottom: 20px;
   position: relative;
 }
-// ul li a {
-//   list-style: none;
-//   // text-align: left;
-//   margin-right: 30px;
-//   margin: auto;
-//   // text-align-last: auto;
-//   text-decoration: none;
-// }
+ul li a {
+  list-style: none;
+  // text-align: left;
+  margin-right: 30px;
+  text-align-last: auto;
+  text-decoration: none;
+}
 .company ul li a {
   font-weight: 300;
   font-family: cursive;
@@ -762,7 +761,7 @@ input {
   text-decoration: none;
   padding-top: 5px;
   font-size: 13px;
-  display: block;
+  // display: block;
   transition: all 0.3s ease;
   margin-right: 5em;
 }
@@ -870,7 +869,7 @@ input {
 }
 .Contact h3 {
   color: blue;
-  font-size: 14px;
+  font-size: 15px;
   margin-bottom: 20px;
   position: relative;
 }
@@ -993,14 +992,6 @@ input {
     font-family: cursive;
     color: black;
   }
-  .footer {
-    width: 100%;
-    min-height: 40vh;
-    margin-top: 3em;
-    // display: flex;
-    font-size: auto;
-    margin: auto;
-  }
 }
 @media only screen and (max-width: 600px) {
   /* mobile-specific CSS styles go here */
@@ -1013,6 +1004,21 @@ input {
     box-sizing: border-box;
     // padding-right: 80px;
     // width: 100%;
+  }
+  .input {
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.12);
+    padding: 20px;
+    box-sizing: border-box;
+    padding-right: 80px;
+    width: 200px;
+  }
+  .button {
+    width: 70px;
+    outline: none;
+    border: none;
+    height: 35px;
+    margin-bottom: -10px;
+    margin-left: -5.5em;
   }
 }
 </style>
