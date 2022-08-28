@@ -268,10 +268,48 @@
       </div>
     </div>
   </div>
-  <!-- <div class="footer">
+  <!-----------------------End of Dropdown---------------->
+  <div class="newsletter pt-5" id="newsletter">
+    <div class="container">
+      <div class="Newsletter-section">
+        <div class="newsletter-text">
+          <h3>
+            Sign Up For Our Weekly Newsletter To Recieve Updated and Health Tip
+          </h3>
+        </div>
+        <div class="form-section text-center">
+          <form class="search-wrapper">
+            <input
+              type="text"
+              class="form"
+              placeholder="Enter your email..."
+              required
+              style="box-shadow: none; padding-right: 25px"
+            />
+            <button
+              type="submit"
+              class="btn3"
+              style="
+                width: 70px;
+                outline: none;
+                border: none;
+                height: 35px;
+                margin-bottom: -10px;
+                margin-left: -5.5em;
+              "
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--------------End of Nwletter------------>
+  <div class="footer">
     <div class="container">
       <div class="row">
-        <div class="col-sm">
+        <div class="col">
           <div class="footer-img">
             <img
               src="../assets/logo.png"
@@ -281,7 +319,7 @@
             />
           </div>
         </div>
-        <div class="col-sm">
+        <div class="col">
           <div class="company">
             <h3>COMPANY</h3>
             <ul>
@@ -292,7 +330,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-sm">
+        <div class="col">
           <div class="company">
             <h3>SERVICES</h3>
             <ul>
@@ -305,7 +343,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-sm">
+        <div class="col">
           <div class="company">
             <h3>RESOURSES</h3>
             <ul class="">
@@ -319,7 +357,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-sm">
+        <div class="">
           <div class="company">
             <h3>Contact US</h3>
             <ul>
@@ -331,7 +369,7 @@
       </div>
     </div>
   </div>
-  <div class="col-sm">
+  <div class="col">
     <div class="row copy-right">
       <div class="social">
         <a href=""
@@ -358,7 +396,7 @@
         <p>@2020Clinikli All Right Reserve</p>
       </div>
     </div>
-  </div> -->
+  </div>
 </template>
 
 <script>
@@ -603,98 +641,174 @@ h3 {
 // .nav-link .dropdown-toggle {
 //   float: right;
 // }
-// .footer {
-//   width: 100%;
-//   min-height: 40vh;
-//   padding: 80px 0;
-// }
-// .company {
-//   justify-content: center;
-//   padding: 0;
-//   margin: 0;
-//   padding-top: 30px;
-//   padding-bottom: 5px;
-// }
-// .img-foot {
-//   height: 300px;
-//   width: 200px;
-//   max-width: 300px;
-//   padding-right: 20px;
-//   float: left;
-//   margin-top: 6em;
-// }
-// .company h3 {
-//   color: blue;
-//   font-size: 20px;
-//   margin-bottom: 20px;
-//   position: relative;
-// }
-// ul {
-//   list-style: none;
-// }
-// .company ul li a {
-//   font-weight: 300;
-//   font-family: cursive;
-//   text-transform: capitalize;
-//   text-decoration: none;
-//   padding-top: 5px;
-//   font-size: 16px;
-//   // display: block;
-//   transition: all 0.3s ease;
-//   text-align: right;
-//   margin-right: 5em;
-// }
-// .company ul li a:hover {
-//   color: black;
-//   padding-left: 8px;
-// }
-// .company ul li:not(:last-child) {
-//   margin-bottom: 10px;
-// }
-// .company h3::before {
-//   content: "";
-//   position: absolute;
-//   left: 0;
-//   bottom: -10px;
-//   background-color: blue;
-//   height: 2px;
-//   box-sizing: border-box;
-//   width: 60px;
-// }
-// .copy-right {
-//   /* padding: 10px 5px; */
-//   background: blue;
-//   /* height: 50px; */
-//   bottom: 0;
-//   /* left: 0;
-//   bottom: 0; */
-// }
-// .social {
-//   float: left;
-//   /* margin-top: 3px; */
-//   padding-right: 20px;
-// }
-// .social img {
-//   float: right;
-//   margin: 5px;
-//   border-radius: 50%;
-// }
-// .social img:hover {
-//   color: blue;
-// }
-// .social p {
-//   text-align: left;
-//   padding-top: 7px;
-//   font-size: 15px;
-//   color: white;
-//   font-family: cursive;
-// }
-@media (max-width: 767px) {
-  .footer-col {
-    width: 100%;
-    margin-bottom: 30px;
-  }
+/*---------------------------End of dropdown-------------------------- */
+.newsletter {
+  min-height: 40vh;
+  width: 100%;
+  margin-top: 5em;
 }
+.Newsletter-section {
+  margin: 50px;
+  text-align: center;
+  margin-right: 30px;
+}
+.Newsletter-section .newsletter-text {
+  margin: 30px;
+  text-align: center;
+}
+.newsletter-text h3 {
+  text-align: center;
+  margin: 20px;
+  margin-top: 20px;
+  font-weight: 200;
+  color: blue;
+  font-family: cursive;
+}
+.form-section {
+  margin: 0 10px;
+}
+.form-section .search-wrapper {
+  padding: 20px;
+}
+.search-wrapper input {
+  border-radius: 20px;
+  border: 1px solid pink;
+  width: 300px;
+  height: 35px;
+  // z-index: -5;
+  outline: none;
+  padding: 0 10px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.12);
+}
+.form input {
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.12);
+}
+.form button {
+  margin: 10px;
+  margin-top: 20px;
+}
+input {
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.12);
+  padding: 20px;
+  box-sizing: border-box;
+  padding-right: 80px;
+  width: 100%;
+}
+.btn3 {
+  background-color: darkblue;
+  box-shadow: 0px 20px 40px rgba(189, 167, 167, 0.36);
+  color: white;
+  font-size: 13px;
+  height: 40px;
+  border-radius: 20px;
+  z-index: -10;
+  outline: none;
+  text-decoration: none;
+  font-family: cursive;
+}
+.btn3:hover {
+  background-color: black;
+}
+::placeholder {
+  font-family: cursive;
+  padding: 10px;
+  color: blue;
+  font-size: 13px;
+}
+/*------------End of newletter---------------- */
+.footer {
+  width: 100%;
+  min-height: 40vh;
+  padding: 80px 0;
+  display: flex;
+}
+.company {
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+.img-foot {
+  height: 300px;
+  width: 200px;
+  max-width: 300px;
+  padding-right: 20px;
+  float: left;
+  margin-top: 6em;
+}
+.company h3 {
+  color: blue;
+  font-size: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+ul {
+  list-style: none;
+}
+.company ul li a {
+  font-weight: 300;
+  font-family: cursive;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding-top: 5px;
+  font-size: 16px;
+  // display: block;
+  transition: all 0.3s ease;
+  text-align: right;
+  margin-right: 5em;
+}
+.company ul li a:hover {
+  color: black;
+  padding-left: 8px;
+}
+.company ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.company h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: blue;
+  height: 2px;
+  box-sizing: border-box;
+  width: 60px;
+}
+.copy-right {
+  /* padding: 10px 5px; */
+  background: blue;
+  /* height: 50px; */
+  bottom: 0;
+  /* left: 0;
+  bottom: 0; */
+}
+.social {
+  float: left;
+  /* margin-top: 3px; */
+  padding-right: 20px;
+}
+.social img {
+  float: right;
+  margin: 5px;
+  border-radius: 50%;
+}
+.social img:hover {
+  color: blue;
+}
+.social p {
+  text-align: left;
+  padding-top: 7px;
+  font-size: 15px;
+  color: white;
+  font-family: cursive;
+}
+// @media (max-width: 767px) {
+//   .footer-col {
+//     width: 100%;
+//     margin-bottom: 30px;
+//   }
+// }
 @media (max-width: 767px) {
   .card {
     width: 150px;
@@ -751,6 +865,19 @@ h3 {
     left: 20px;
     font-family: cursive;
     color: black;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* mobile-specific CSS styles go here */
+  .search-wrapper input {
+    clear: both;
+    width: 250px !important;
+    font-size: 13px !important;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    box-sizing: border-box;
+    // padding-right: 80px;
+    // width: 100%;
   }
 }
 </style>
