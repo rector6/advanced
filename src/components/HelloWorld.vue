@@ -179,7 +179,7 @@
         Frequently Asked Questions
       </h1>
       <div class="card-subbody">
-        <p class="text-center">
+        <p class="text-center pb-3">
           Lorem ipsum dolor sit amet consetertur sadipcing tyorue<br />
           nonnamy airmad tempor invidunt ut labour magna aliqyuamim<br />Lorem
           Lorem ipsum dolor sit amet consetertur sadipcing tyorue<br />
@@ -306,32 +306,32 @@
     </div>
   </div>
   <!--------------End of Nwletter------------>
-  <div class="footer">
+  <div class="footer text-left ml-auto">
     <div class="container">
       <div class="row">
-        <div class="col">
+        <div class="col-md">
           <div class="footer-img">
             <img
-              src="../assets/logo.png"
+              src="../assets/facebook.png"
               class="img-foot"
-              width="50px"
-              height="50px"
+              width="30px"
+              height="30px"
             />
           </div>
         </div>
-        <div class="col">
+        <div class="col-md">
           <div class="company">
             <h3>COMPANY</h3>
-            <ul>
-              <li><a href="">About Us</a></li>
+            <ul class="text-left ml">
+              <li class="text-left"><a href="">About Us</a></li>
               <li><a href="">Blog</a></li>
               <li><a href="">Learn More</a></li>
               <li><a href="">Careers</a></li>
             </ul>
           </div>
         </div>
-        <div class="col">
-          <div class="company">
+        <div class="col-md">
+          <div class="Services">
             <h3>SERVICES</h3>
             <ul>
               <li><a href="">Patients</a></li>
@@ -343,22 +343,22 @@
             </ul>
           </div>
         </div>
-        <div class="col">
-          <div class="company">
-            <h3>RESOURSES</h3>
+        <div class="col-md">
+          <div class="resources">
+            <h3>RESOURCES</h3>
             <ul class="">
               <li><a href="">FAQS</a></li>
-              <li><a href="">View Partners</a></li>
-              <li><a href="">Pharmacy Portal</a></li>
-              <li><a href="">Download Clinikli App</a></li>
-              <li><a href="">Search Hospital</a></li>
+              <li><a href="">Partners</a></li>
+              <li><a href=""> Portal</a></li>
+              <li><a href="">Clinikli App</a></li>
+              <li><a href=""> Hospital</a></li>
               <li><a href="">Teams Of Use</a></li>
               <li><a href="">Privacy Policy</a></li>
             </ul>
           </div>
         </div>
-        <div class="">
-          <div class="company">
+        <div class="col-md-2">
+          <div class="Contact">
             <h3>Contact US</h3>
             <ul>
               <li><a href="">info@gmail.com</a></li>
@@ -544,17 +544,19 @@ h3 {
   color: black;
 }
 .image-section {
-  width: 50%;
-  padding-left: 20px;
+  // width: 50%;
+  padding-left: 10px;
 }
 .image {
   height: 300px;
   width: 50%;
   align-items: center;
-  float: right;
+  // float: right;
   justify-content: center;
   border-bottom-right-radius: 35%;
   border-top-left-radius: 35%;
+  border-radius: 20px;
+  border: 1px solid black;
   box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.877);
   margin: 20px;
 }
@@ -600,25 +602,25 @@ h3 {
 .account {
   margin: 20px;
   padding-left: 15%;
-  justify-content: center;
-  align-items: center;
+  // justify-content: center;
+  // align-items: center;
   min-height: 50vh;
 }
 .dropdown-section {
   justify-content: center;
-  align-items: center;
+  // align-items: center;
   margin-bottom: 20px;
 }
 .dropdown a {
   margin: 20px;
   width: 80%;
-  float: left;
+  // float: left;
   height: 40px;
   margin-top: 20px;
   border-radius: 10px;
   box-shadow: 50px 20px 50px pink;
-  text-align: left;
-  left: 50px;
+  // text-align: left;
+  // left: 50px;
   font-family: cursive;
   color: black;
 }
@@ -633,7 +635,7 @@ h3 {
   width: 70%;
   border: none;
   float: center;
-  text-align: left;
+  // text-align: left;
   box-shadow: 0px 0px 20px 30px pink;
   font-size: 15px;
   font-weight: 700;
@@ -718,44 +720,50 @@ input {
 /*------------End of newletter---------------- */
 .footer {
   width: 100%;
-  min-height: 40vh;
-  padding: 80px 0;
-  display: flex;
+  min-height: 50vh;
+  margin-top: 3em;
+  // display: flex;
 }
 .company {
-  justify-content: center;
+  // justify-content: center;
   padding: 0;
   margin: 0;
   padding-top: 30px;
   padding-bottom: 5px;
 }
+.foot-image .img-foot {
+}
 .img-foot {
-  height: 300px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
   max-width: 300px;
-  padding-right: 20px;
+  padding-right: 10px;
   float: left;
   margin-top: 6em;
 }
 .company h3 {
   color: blue;
-  font-size: 20px;
+  font-size: 14px;
   margin-bottom: 20px;
   position: relative;
 }
-ul {
-  list-style: none;
-}
+// ul li a {
+//   list-style: none;
+//   // text-align: left;
+//   margin-right: 30px;
+//   margin: auto;
+//   // text-align-last: auto;
+//   text-decoration: none;
+// }
 .company ul li a {
   font-weight: 300;
   font-family: cursive;
   text-transform: capitalize;
   text-decoration: none;
   padding-top: 5px;
-  font-size: 16px;
-  // display: block;
+  font-size: 13px;
+  display: block;
   transition: all 0.3s ease;
-  text-align: right;
   margin-right: 5em;
 }
 .company ul li a:hover {
@@ -766,6 +774,125 @@ ul {
   margin-bottom: 10px;
 }
 .company h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: blue;
+  height: 2px;
+  box-sizing: border-box;
+  width: 60px;
+}
+.Services {
+  color: blue;
+  font-size: 16px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.Services h3 {
+  color: blue;
+  font-size: 14px;
+  margin-bottom: 20px;
+  position: relative;
+  display: block;
+}
+.Services ul li a {
+  font-weight: 300;
+  font-family: cursive;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding-top: 5px;
+  font-size: 13px;
+  // display: block;
+  transition: all 0.3s ease;
+  margin-right: 5em;
+}
+.Services ul li a:hover {
+  color: black;
+  padding-left: 8px;
+}
+.Services ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.Services h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: blue;
+  height: 2px;
+  box-sizing: border-box;
+  width: 60px;
+}
+.resources {
+  color: blue;
+  font-size: 16px;
+  position: relative;
+}
+.resources h3 {
+  color: blue;
+  font-size: 14px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.resources ul li a {
+  font-weight: 300;
+  font-family: cursive;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding-top: 5px;
+  font-size: 13px;
+  // display: block;
+  transition: all 0.3s ease;
+  margin-right: 5em;
+}
+.resources ul li a:hover {
+  color: black;
+  padding-left: 8px;
+}
+.resources ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.resources h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: blue;
+  height: 2px;
+  box-sizing: border-box;
+  width: 60px;
+}
+.Contact {
+  color: blue;
+  font-size: 16px;
+  position: relative;
+}
+.Contact h3 {
+  color: blue;
+  font-size: 14px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.Contact ul li a {
+  font-weight: 300;
+  font-family: cursive;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding-top: 5px;
+  font-size: 13px;
+  // display: block;
+  transition: all 0.3s ease;
+  // margin-right: 5em;
+}
+.Contact ul li a:hover {
+  color: black;
+  padding-left: 8px;
+}
+.Contact ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.Contact h3::before {
   content: "";
   position: absolute;
   left: 0;
@@ -865,6 +992,14 @@ ul {
     left: 20px;
     font-family: cursive;
     color: black;
+  }
+  .footer {
+    width: 100%;
+    min-height: 40vh;
+    margin-top: 3em;
+    // display: flex;
+    font-size: auto;
+    margin: auto;
   }
 }
 @media only screen and (max-width: 600px) {
