@@ -110,24 +110,29 @@
           <div class="image-section pb-5">
             <img src="../assets/imgcard.png" class="image" />
           </div>
-          <div class="col-lg pb-5">
-            <div class="row">
+          <div class="col-lg pb-2">
+            <div class="card-section pb-5">
               <div
                 class="card"
                 style="
                   width: 100%;
-                  height: 80px;
+                  height: 100%;
                   max-width: 500px;
-                  margin: 20px;
+                  min-width: 250px;
+                  margin: 25px;
                   border-radius: 10px;
                   box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.12);
+                  @media screen (max-width: 764px) {
+                    width: 100%;
+                    height: 20%;
+                  }
                 "
               >
                 <div class="card-body">
-                  <h3 class="card-title">Search</h3>
-                  <p class="pb-5 card-subtitle">
-                    Search for a service Category yoou need to use<br />eg
-                    Doctor Hospital
+                  <h5 class="card-title">Search</h5>
+                  <p class="card-text">
+                    Search for a Service Category you need to use<br />eg
+                    Doctors Hospital.
                   </p>
                 </div>
               </div>
@@ -137,34 +142,42 @@
                   width: 100%;
                   height: 80px;
                   max-width: 500px;
+                  min-width: 250px;
                   margin: 20px;
                   border-radius: 10px;
                   box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.12);
+                  @media screen (max-width: 764px) {
+                    width: 100%;
+                    height: 40%;
+                  }
                 "
               >
                 <div class="card-body">
-                  <h3 class="card-title">Book</h3>
-                  <p class="card-subtitle">
-                    Select a near by profile that refers
-                  </p>
+                  <h5 class="card-title">Book</h5>
+                  <p class="card-text">Meet a near by Profile that refers</p>
                 </div>
               </div>
               <div
                 class="card"
                 style="
                   width: 100%;
-                  height: 80px;
+                  height: 50%;
                   max-width: 500px;
+                  min-width: 250px;
                   margin: 20px;
                   border-radius: 10px;
                   box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.12);
+                  @media screen (max-width: 764px) {
+                    width: 100%;
+                    height: 20%;
+                  }
                 "
               >
                 <div class="card-body">
-                  <h3 class="card-title">Meet</h3>
-                  <p class="card-subtitle">
-                    Search your scheduled appointmentand get fast,<br />fast
-                    health services
+                  <h5 class="card-title">Meet</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
                   </p>
                 </div>
               </div>
@@ -572,16 +585,12 @@ a {
 .card-section {
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
-.card-body {
-  display: flex;
-  position: absolute;
-  flex-direction: column;
-  padding: 15px;
-}
-.card-title h3 {
+h5 {
   font-size: 20px;
   font-weight: 700;
+  color: black;
 }
 /*-------------End of section ---------*/
 #question {
