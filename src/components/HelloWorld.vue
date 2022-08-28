@@ -111,60 +111,62 @@
             <img src="../assets/imgcard.png" class="image" />
           </div>
           <div class="col-lg pb-5">
-            <div
-              class="card"
-              style="
-                width: 500px;
-                height: 100px;
-                min-width: 30%;
-                max-width: 100%;
-                margin: 0 auto;
-                float: none;
-                margin-bottom: 10px;
-                box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.36);
-              "
-            >
-              <div class="card-body">
-                <h1 class="card-title">Search</h1>
-                <p class="card-info">
-                  Search for a service you need eg Doctors, Hospital etc
-                </p>
+            <div class="row">
+              <div
+                class="card"
+                style="
+                  width: 100%;
+                  height: 80px;
+                  max-width: 500px;
+                  margin: 20px;
+                  border-radius: 10px;
+                  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.12);
+                "
+              >
+                <div class="card-body">
+                  <h3 class="card-title">Search</h3>
+                  <p class="pb-5 card-subtitle">
+                    Search for a service Category yoou need to use<br />eg
+                    Doctor Hospital
+                  </p>
+                </div>
               </div>
-            </div>
-            <div
-              class="card"
-              style="
-                width: 500px;
-                height: 100px;
-                min-width: 500px;
-                margin: 0 auto;
-                float: none;
-                margin-bottom: 10px;
-                box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.36);
-              "
-            >
-              <div class="card-body">
-                <h1 class="card-title">Book</h1>
-                <p class="card-info">Select a near by profile that refers</p>
+              <div
+                class="card"
+                style="
+                  width: 100%;
+                  height: 80px;
+                  max-width: 500px;
+                  margin: 20px;
+                  border-radius: 10px;
+                  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.12);
+                "
+              >
+                <div class="card-body">
+                  <h3 class="card-title">Book</h3>
+                  <p class="card-subtitle">
+                    Select a near by profile that refers
+                  </p>
+                </div>
               </div>
-            </div>
-            <div
-              class="card bg-primary"
-              style="
-                width: 500px;
-                height: 100px;
-                min-width: 500px;
-                margin: 0 auto;
-                float: none;
-                margin-bottom: 10px;
-                box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.36);
-              "
-            >
-              <div class="card-body">
-                <h1 class="card-title">Meet</h1>
-                <p class="card-info">
-                  Search for a service you need eg Doctors, Hospital etc
-                </p>
+              <div
+                class="card"
+                style="
+                  width: 100%;
+                  height: 80px;
+                  max-width: 500px;
+                  margin: 20px;
+                  border-radius: 10px;
+                  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.12);
+                "
+              >
+                <div class="card-body">
+                  <h3 class="card-title">Meet</h3>
+                  <p class="card-subtitle">
+                    Search your scheduled appointmentand get fast,<br />fast
+                    health services
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -474,6 +476,8 @@ h3 {
   box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.36);
   background: white;
   border: none;
+  margin: 20px;
+  text-decoration: none;
 }
 .cards .card:hover {
   background: blue;
@@ -499,10 +503,10 @@ h3 {
   display: block;
   padding: 10px;
 }
-// a {
-//   text-decoration: none;
-//   text-align: auto;
-// }
+a {
+  text-decoration: none;
+  text-align: auto;
+}
 .card-info {
   text-align: left;
   display: block;
@@ -570,16 +574,14 @@ h3 {
   align-items: center;
 }
 .card-body {
-  top: 0;
   display: flex;
   position: absolute;
   flex-direction: column;
   padding: 15px;
 }
-.card-title {
+.card-title h3 {
   font-size: 20px;
   font-weight: 700;
-  margin-top: none;
 }
 /*-------------End of section ---------*/
 #question {
