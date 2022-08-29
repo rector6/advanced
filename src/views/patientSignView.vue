@@ -72,11 +72,12 @@ export default {};
   min-height: 100vh;
 }
 p {
-  color: rgb(88, 88, 99);
-  opacity: to-lower-case($string: "3");
+  color: blue;
+  opacity: 15px;
 }
 h1 {
   color: blue;
+  font-size: 2em;
 }
 h5 {
   font-size: 15px;
@@ -90,8 +91,8 @@ h5 {
   margin: 10px;
 }
 .form-control2 {
-  margin: 15px;
-  padding: 10px;
+  margin: 20px;
+  padding: 15px;
   border-radius: 5px;
   width: 100px;
   margin-left: 2%;
@@ -103,7 +104,9 @@ input {
   border: 1px solid black;
 }
 ::placeholder {
-  color: black;
+  color: blue;
+  font-size: 15px;
+  font-weight: 800;
   font-family: cursive;
 }
 .label {
