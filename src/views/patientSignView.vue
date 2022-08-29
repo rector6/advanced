@@ -136,13 +136,13 @@ input:hover {
   margin: 15px;
   margin-top: 20px;
 }
-@media (max-length: 600px) {
+@media (max-length: 700px) {
   .form-control2 {
-    margin: 30px;
-    padding: 15px;
+    margin: 35px;
+    padding: 18px;
     border-radius: 5px;
     width: 100px;
-    margin-left: 2%;
+    margin-left: 20px;
   }
 }
 </style>
