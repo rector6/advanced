@@ -10,7 +10,7 @@
         <form action="" method="Get">
           <div class="row">
             <div class="col">
-              <label class="" for="">First Name</label>
+              <h5 class="" for="">First Name</h5>
               <input
                 type="text"
                 class="form-control"
@@ -18,13 +18,13 @@
               />
             </div>
             <div class="col">
-              <label class="" for="">Last Name</label>
+              <h5 class="" for="">Last Name</h5>
               <input type="text" class="form-control" placeholder="Last name" />
             </div>
           </div>
           <div class="row">
             <div class="col">
-              <label class="" for="">Email</label>
+              <h5 class="" for="">Email</h5>
               <input
                 type="email"
                 class="form-control"
@@ -32,14 +32,14 @@
               />
             </div>
             <div class="col">
-              <label class="" for="">Password</label>
+              <h5 class="" for="">Password</h5>
               <input
                 type="password"
                 class="form-control"
                 placeholder="Pss********"
               />
             </div>
-            <label class="" for="">Phone Number</label>
+            <h5 class="" for="">Phone Number</h5>
             <input
               type="text"
               class="form-control2"
@@ -49,9 +49,7 @@
           </div>
           <div class="custom-control custom-checkbox">
             <input type="checkbox" class="" id="customCheckDisabled" disabled />
-            <label class="custom-control-label" for="customCheckDisabled"
-              >Check this custom checkbox</label
-            >
+            <h5 class="">Check this custom checkbox</h5>
             <button class="btn btn-primary" type="submit">Sign Up</button>
           </div>
         </form>
@@ -78,14 +76,13 @@ p {
 h1 {
   color: blue;
 }
+h5 {
+  font-size: 15px;
+  margin: 10px;
+  color: blue;
+}
 .login-section {
   margin: 20px;
-}
-label {
-  margin: 10px;
-  margin-bottom: 5px;
-  color: blue;
-  font-family: cursive;
 }
 .form-control {
   margin: 10px;
