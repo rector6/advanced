@@ -47,11 +47,13 @@
               style="width: 50%"
             />
           </div>
-          <div class="custom-control custom-checkbox">
-            <input type="checkbox" class="" id="customCheckDisabled" disabled />
-            <h5 class="">Check this custom checkbox</h5>
-            <button class="btn btn-primary" type="submit">Sign Up</button>
+          <div>
+            <label>
+              <input type="checkbox" class="checkbox" id="checkid" />
+              Teams and Conditions
+            </label>
           </div>
+          <button class="btn btn-primary" type="submit">Submit form</button>
         </form>
       </div>
     </div>
@@ -97,13 +99,18 @@ h5 {
 input {
   height: 60px;
   outline: none;
-  margin-top: 10;
-  padding-right: 30px;
+  // padding-right: 30px;
   border: 1px solid black;
 }
 ::placeholder {
   color: black;
   font-family: cursive;
+}
+.label {
+  display: block;
+  padding-left: 15px;
+  text-indent: -15px;
+  margin-bottom: 10px;
 }
 button {
   margin-top: 20px;
@@ -121,5 +128,9 @@ button {
 }
 input:hover {
   background-color: pink;
+}
+.checkbox label {
+  margin: 15px;
+  margin-top: 20px;
 }
 </style>
