@@ -1,8 +1,60 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="sign">
-        <h1 class="text-center">Processing</h1>
+      <div class="sign-section">
+        <h1 class="text-center">Sign Up</h1>
+        <p class="text-center">
+          Create account as a patient<br />
+          Get health Service as a finger Snap.
+        </p>
+        <form action="" method="Get">
+          <div class="row">
+            <div class="col">
+              <label class="" for="">First Name</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="First name"
+              />
+            </div>
+            <div class="col">
+              <label class="" for="">Last Name</label>
+              <input type="text" class="form-control" placeholder="Last name" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <label class="" for="">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Email@gmail.com"
+              />
+            </div>
+            <div class="col">
+              <label class="" for="">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                placeholder="Pss********"
+              />
+            </div>
+            <label class="" for="">Phone Number</label>
+            <input
+              type="text"
+              class="form-control2"
+              placeholder="Phone number"
+              style="width: 50%"
+            />
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="" id="customCheckDisabled" disabled />
+            <label class="custom-control-label" for="customCheckDisabled"
+              >Check this custom checkbox</label
+            >
+            <button class="btn btn-primary" type="submit">Sign Up</button>
+          </div>
+        </form>
       </div>
     </div>
   </div>
@@ -12,4 +64,62 @@
 export default {};
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.container {
+  justify-content: center;
+  align-items: center;
+  display: block;
+  min-height: 100vh;
+}
+p {
+  color: rgb(88, 88, 99);
+  opacity: to-lower-case($string: "3");
+}
+h1 {
+  color: blue;
+}
+.login-section {
+  margin: 20px;
+}
+label {
+  margin: 20px;
+  color: blue;
+  font-family: cursive;
+}
+.form-control {
+  margin: 10px;
+}
+.form-control2 {
+  margin: 10px;
+  border-radius: 5px;
+  width: 100px;
+}
+input {
+  height: 60px;
+  outline: none;
+  margin: 0;
+  padding-right: 30px;
+  border: 1px solid black;
+}
+::placeholder {
+  color: black;
+  font-family: cursive;
+}
+button {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: cursive;
+}
+.btn {
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 30%;
+}
+.btn:hover {
+  background-color: black;
+}
+input:hover {
+  background-color: black;
+}
+</style>
