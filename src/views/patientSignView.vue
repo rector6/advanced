@@ -142,7 +142,8 @@ input:hover {
     padding: 18px;
     border-radius: 5px;
     width: 100px;
-    margin-left: 20px;
+    margin-left: 40px;
+    
   }
 }
 </style>
