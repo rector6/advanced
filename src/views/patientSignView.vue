@@ -82,7 +82,8 @@ h1 {
   margin: 20px;
 }
 label {
-  margin: 20px;
+  margin: 10px;
+  margin-bottom: 5px;
   color: blue;
   font-family: cursive;
 }
@@ -90,14 +91,16 @@ label {
   margin: 10px;
 }
 .form-control2 {
-  margin: 10px;
+  margin: 15px;
+  padding: 10px;
   border-radius: 5px;
   width: 100px;
+  margin-left: 2%;
 }
 input {
   height: 60px;
   outline: none;
-  margin: 0;
+  margin-top: 10;
   padding-right: 30px;
   border: 1px solid black;
 }
@@ -120,6 +123,6 @@ button {
   background-color: black;
 }
 input:hover {
-  background-color: black;
+  background-color: pink;
 }
 </style>
