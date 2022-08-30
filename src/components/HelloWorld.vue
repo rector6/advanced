@@ -46,7 +46,7 @@
             Signip as a patient and get quick reliable service on the click
           </p>
         </a>
-        <a href="" class="card">
+        <a href="user" class="card">
           <img src="../assets/icons/Doc.png" class="card-header" />
           <h3 class="">Clinicians</h3>
           <p class="card-info">
