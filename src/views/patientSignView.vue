@@ -96,6 +96,8 @@
           </div>
           <button class="btn btn-primary" type="submit">Submit form</button>
         </form>
+        <hr />
+        <p class="text-center">Already have an account?<a href="">Login</a></p>
       </div>
     </div>
   </div>
@@ -191,6 +193,9 @@ button {
 }
 input:hover {
   background-color: pink;
+}
+a {
+  text-decoration: none;
 }
 // .checkbox {
 //   margin: 15px;
