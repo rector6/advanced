@@ -19,6 +19,7 @@
                 height: 20px;
                 outline: none;
                 border: 1px solid black;
+                text-dec
                 "
               />
             </div>
@@ -31,6 +32,7 @@
                 style="height: 60px
                 height: 20px;
                 outline: none;
+                text-decoration: none;
                 border: 1px solid black;
               "
               />
@@ -64,15 +66,16 @@
               />
             </div>
             <div class="col">
-              <h5 class="" for="">Password</h5>
+              <h5 class="" for="">Phone Number</h5>
               <input
-                type="password"
+                type="number"
                 class="form-control"
-                placeholder="Pss********"
+                placeholder="Eg +234....."
                 style="height: 60px
                 height: 20px;
                 outline: none;
                 border: 1px solid black;
+                scroll: none
                 "
               />
             </div>
