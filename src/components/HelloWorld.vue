@@ -2,7 +2,7 @@
   <div class="full" id="homepage bg-danger">
     <div class="container">
       <div class="row">
-        <div class="col-6 pt-5 first-section">
+        <div class="col-12 col-sm-6 col-md-8 pt-5 first-section">
           <h1 class="">
             You're a click away from <br />
             from getting Health services!
@@ -20,7 +20,7 @@
             Sign Up Now
           </button>
         </div>
-        <div class="col-6">
+        <div class="col-6 col-md-4">
           <div class="second-section">
             <img
               src="../assets/font-img.png"
