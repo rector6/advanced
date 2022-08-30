@@ -15,11 +15,25 @@
                 type="text"
                 class="form-control"
                 placeholder="First name"
+                style="height: 60px
+                height: 20px;
+                outline: none;
+                border: 1px solid black;
+                "
               />
             </div>
             <div class="col">
               <h5 class="" for="">Last Name</h5>
-              <input type="text" class="form-control" placeholder="Last name" />
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Last name"
+                style="height: 60px
+                height: 20px;
+                outline: none;
+                border: 1px solid black;
+              "
+              />
             </div>
           </div>
           <div class="row">
@@ -29,6 +43,11 @@
                 type="email"
                 class="form-control"
                 placeholder="Email@gmail.com"
+                style="height: 60px
+                height: 20px;
+                outline: none;
+                border: 1px solid black;
+              "
               />
             </div>
             <div class="col">
@@ -37,20 +56,42 @@
                 type="password"
                 class="form-control"
                 placeholder="Pss********"
+                style="height: 60px
+                height: 20px;
+                outline: none;
+                border: 1px solid black;
+                "
               />
             </div>
-            <h5 class="" for="">Phone Number</h5>
-            <input
-              type="text"
-              class="form-control2"
-              placeholder="Phone number"
-              style="width: 50%"
-            />
+            <div class="col">
+              <h5 class="" for="">Password</h5>
+              <input
+                type="password"
+                class="form-control"
+                placeholder="Pss********"
+                style="height: 60px
+                height: 20px;
+                outline: none;
+                border: 1px solid black;
+                "
+              />
+            </div>
           </div>
-          <div>
-            <label>
-              <input type="checkbox" class="checkbox" id="checkid" />
-              Teams and Conditions
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckIndeterminate"
+              style="
+                outline: none;
+                margin: 10px
+                padding: 10px
+              "
+            />
+            <label class="form-check-label" for="flexCheckIndeterminate">
+              i agree and accept the <a href="">Teams and Condition</a>and
+              <a href="">Private and policy</a>
             </label>
           </div>
           <button class="btn btn-primary" type="submit">Submit form</button>
@@ -70,6 +111,7 @@ export default {};
   align-items: center;
   display: block;
   min-height: 100vh;
+  width: 70%;
 }
 p {
   color: blue;
@@ -97,23 +139,41 @@ h5 {
   width: 100px;
   margin-left: 2%;
 }
-input {
-  height: 60px;
-  outline: none;
-  // padding-right: 30px;
-  border: 1px solid black;
-}
+// input {
+//   height: 20px;
+//   outline: none;
+//   // padding-right: 30px;
+//   border: 1px solid black;
+// }
 ::placeholder {
   color: blue;
   font-size: 15px;
   font-weight: 800;
   font-family: cursive;
 }
-.label {
-  display: block;
-  padding-left: 15px;
-  text-indent: -15px;
-  margin-bottom: 10px;
+// .label {
+//   display: block;
+//   padding-left: 15px;
+//   text-indent: -15px;
+//   margin-bottom: 10px;
+// }
+.form-check {
+  margin: 10px;
+}
+.form-check-input {
+  display: inline;
+  font-size: 10px;
+}
+.form-check .form-check-input {
+  font-size: 15px;
+}
+.form-check a {
+  text-decoration: none;
+  font-size: 12px;
+}
+.form-check .form-check-label {
+  display: inline;
+  font-size: 14px;
 }
 button {
   margin-top: 20px;
@@ -122,9 +182,9 @@ button {
   font-family: cursive;
 }
 .btn {
-  width: 50%;
-  margin-top: 20px;
-  margin-left: 30%;
+  width: 100%;
+  margin: 20px;
+  // margin-left: 50px;
 }
 .btn:hover {
   background-color: black;
@@ -132,18 +192,28 @@ button {
 input:hover {
   background-color: pink;
 }
-.checkbox label {
-  margin: 15px;
-  margin-top: 20px;
-}
-@media (max-length: 700px) {
+// .checkbox {
+//   margin: 15px;
+//   margin-top: 50px;
+// }
+// label {
+//   padding: 20px;
+// }
+@media (max-length: 600px) {
   .form-control2 {
     margin: 35px;
     padding: 18px;
     border-radius: 5px;
     width: 100px;
-    margin-left: 40px;
-    
+    margin-right: 40px;
+  }
+  .container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    width: 100%;
   }
 }
 </style>
