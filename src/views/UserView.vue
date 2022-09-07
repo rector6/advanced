@@ -1,12 +1,12 @@
 <template>
   <div class="container">
-    <div class="row">
-      <div class="col-12 col-sm-6 col-md-8">
+    <div class="row no-gutters">
+      <div class="col-sm-6 col-md-8">
         <div class="section-img">
           <img src="../assets/user.png" class="" width="500" height="500" />
         </div>
       </div>
-      <div class="col-12 col-md-4">
+      <div class="col-md-4">
         <div class="reg-section">
           <h5 class="setup text-left">Set Up Your Account</h5>
 
@@ -22,7 +22,9 @@
           >
             <option selected class=""><img src="" />Choose account</option>
             <option value="Clinicain"><a href="">Clinicain</a></option>
-            <option value="Patients"><a href="">Patients</a></option>
+            <option value="Patients">
+              <router-link to="/patient">Patients</router-link>
+            </option>
             <option value="Lab"><a href="">Labolatory</a></option>
             <option value="Hospital"><a href="">Hospital</a></option>
             <option value="Phamarcy"><a href="">Pharmacy</a></option>
@@ -30,6 +32,12 @@
           </select>
         </div>
         <hr />
+        <div class="bottom">
+          <div class="bottom-link">
+            <router-link to="" class="">Back</router-link>
+            <button class="btn btn-primary">Next</button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -50,8 +58,8 @@ export default {};
 .reg-section {
   float: right;
   height: 100vh;
-  width: 80vh;
-  position: relative;
+  width: 100%;
+  // position: relative;
 }
 .reg-section .setup {
   margin-top: 6em;
@@ -63,7 +71,7 @@ export default {};
 p5 {
   font-size: 13px;
   color: black;
-  padding-left: 10em;
+  padding-left: 3em;
 }
 select {
   margin: 25px;
@@ -78,5 +86,35 @@ select {
 }
 hr {
   color: blue;
+}
+.bottom {
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+button {
+  float: right;
+  margin-right: 40px;
+}
+@media (max-length: 747px) {
+  .reg-section {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 20px;
+    box-sizing: border-box;
+  }
+  select {
+    margin: 25px;
+    padding: 20px;
+    width: 100%;
+    font-size: 16px;
+    color: blue;
+    font-family: cursive;
+    box-shadow: 0 20px 30px rgb(0, 0, 0, 0.15);
+    border: 1px solid blue;
+  }
 }
 </style>

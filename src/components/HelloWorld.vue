@@ -3,14 +3,13 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-sm-6 col-md-8 pt-5 first-section">
-          <h1 class="">
-            You're a click away from <br />
+          <strong>
+            You a click away<br />
             from getting Health services!
-          </h1>
+          </strong>
           <p class="pt-3">
-            Lorem ipsum dolor sit amet consetertur sadipcing tyorue<br />
-            nonnamy airmad tempor invidunt ut labour magna aliqyuamim<br />
-            Lorem ipsum diam.
+            Lorem ipsum dolor sit amet consetertur sadipcing tyorue nonnamy
+            airmad tempor<br />invidunt ut labour magna aliqyuamim
           </p>
           <button
             type="submit"
@@ -24,8 +23,8 @@
           <div class="second-section">
             <img
               src="../assets/font-img.png"
-              class="img-fluid"
-              style="box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.52) border:none; margin-left: 70px;"
+              class="img-fluid w-1/2"
+              style="border:none margin-left: 30px width: 100% background-color: rgba(60, 109 ,167,255)"
             />
           </div>
         </div>
@@ -34,53 +33,55 @@
   </div>
   <!-----------------End of first---------->
   <div id="category" class="category">
-    <div class="container p-5">
-      <h2 class="Big-text text-center">
-        Get fast and better health services category
-      </h2>
-      <div class="cards pt-4 col">
-        <a href="patient" class="card">
-          <img src="../assets/icons/Doc.png" class="card-header" />
-          <h3 class="">Patients Account</h3>
-          <p class="card-info">
-            Signip as a patient and get quick reliable service on the click
-          </p>
-        </a>
-        <a href="user" class="card">
-          <img src="../assets/icons/Doc.png" class="card-header" />
-          <h3 class="">Clinicians</h3>
-          <p class="card-info">
-            Signip as a Clinician and get quick reliable service on the click
-          </p>
-        </a>
-        <a href class="card">
-          <img src="../assets/icons/Hospital.png" class="card-header" />
-          <h3 class="">hospitals</h3>
-          <p class="card-info">
-            Signip as a Hospital and Provide services to our many patients
-          </p>
-        </a>
-        <a class="card">
-          <img src="../assets/icons/pharmacy.png" class="card-header" />
-          <h3 class="">Pharmacys</h3>
-          <p class="card-info">
-            Signup as a Pharmacy to Provide services to our patients.
-          </p>
-        </a>
-        <a class="card">
-          <img src="../assets/icons/lab.png" class="card-header" />
-          <h3 class="">Diagonosis Center</h3>
-          <p class="card-info">
-            Signup as a Lab and provide services to our many patients
-          </p>
-        </a>
-        <a class="card">
-          <img src="../assets/icons/amb.png" class="card-header" />
-          <h3 class="">Ambulance Services</h3>
-          <p class="card-info">
-            Get quick and reliable support from our ambulance services
-          </p>
-        </a>
+    <div class="container">
+      <div class="row">
+        <h2 class="text-center pt-5 muted pb-5">
+          Get Fast and Better Health Services Category
+        </h2>
+        <div class="cards">
+          <div href="patient" class="card">
+            <img src="../assets/icons/Doc.png" class="card-header" />
+            <h3 class="">Patients Account</h3>
+            <p class="card-info">
+              Signip as a patient and get quick reliable service on the click
+            </p>
+          </div>
+          <a href="user" class="card">
+            <img src="../assets/icons/Doc.png" class="card-header" />
+            <h3 class="">Clinicians</h3>
+            <p class="card-info">
+              Signip as a Clinician and get quick reliable service on the click
+            </p>
+          </a>
+          <a href="" class="card">
+            <img src="../assets/icons/Hospital.png" class="card-header" />
+            <h3 class="">Hospitals</h3>
+            <p class="card-info">
+              Signip as a Hospital and Provide services to our many patients
+            </p>
+          </a>
+          <a href="" class="card">
+            <img src="../assets/icons/pharmacy.png" class="card-header" />
+            <h3 class="">Pharmacys</h3>
+            <p class="card-info">
+              Signup as a Pharmacy to Provide services to our patients.
+            </p>
+          </a>
+          <a class="card">
+            <img src="../assets/icons/lab.png" class="card-header" />
+            <h3 class="">Diagonosis Center</h3>
+            <p class="card-info">
+              Signup as a Lab and provide services to our many patients
+            </p>
+          </a>
+          <a class="card">
+            <img src="../assets/icons/amb.png" class="card-header" />
+            <h3 class="">Ambulance Services</h3>
+            <p class="card-info">
+              Get quick and reliable support from our ambulance services
+            </p>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -88,12 +89,12 @@
   <div class="middle" id="">
     <div class="container">
       <div class="row">
-        <p class="text-center middle-text">
+        <p class="text-center middle-text pt-5">
           Lorem Ipsum dolor sit amet conseture sapidicsing elitr, sad diam
           noneny<br />
           eirmond tempor invidunt ut labour et dore magna aligua erat,sad diam.
         </p>
-        <div class="text-center">
+        <div class="text-center pt-4 pb-3">
           <button type="submit" title="Signup button" class="btn1 btn-light">
             Sign In Now
           </button>
@@ -105,7 +106,7 @@
   <div class="section" id="section">
     <div class="container">
       <div class="row">
-        <h1 class="work-text">How it Works</h1>
+        <h1 class="work-text pb-2 pt-4">How it Works</h1>
         <div class="section d-flex justify-content-center">
           <div class="image-section pb-5">
             <img src="../assets/imgcard.png" class="image" />
@@ -116,15 +117,18 @@
                 class="card"
                 style="
                   width: 100%;
-                  height: 100%;
+                  height: 80px;
                   max-width: 500px;
-                  min-width: 250px;
-                  margin: 25px;
-                  border-radius: 10px;
-                  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.12);
+                  min-width: 300px;
+                  <!-- margin: 25px; -->
+                  border-radius: 5px;
+                  box-shadow: 22px 30px 30px 40px rgba(0, 0, 0, 0.12);
                   @media screen (max-width: 764px) {
                     width: 100%;
-                    height: 20%;
+                    height: 30%;
+                  }
+                  .card: hover {
+                    background: blue;
                   }
                 "
               >
@@ -143,12 +147,12 @@
                   height: 80px;
                   max-width: 500px;
                   min-width: 250px;
-                  margin: 20px;
+                  <!-- margin: 20px; -->
                   border-radius: 10px;
-                  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.12);
+                  box-shadow: 22px 30px 30px 40px rgba(0, 0, 0, 0.12);
                   @media screen (max-width: 764px) {
                     width: 100%;
-                    height: 40%;
+                    height: 30%;
                   }
                 "
               >
@@ -166,7 +170,7 @@
                   min-width: 250px;
                   margin: 20px;
                   border-radius: 10px;
-                  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.12);
+                  box-shadow: 2px 30px 40px rgba(0, 0, 0, 0.12);
                   @media screen (max-width: 764px) {
                     width: 100%;
                     height: 20%;
@@ -190,155 +194,141 @@
   <!----------------------Section-------------------->
   <div class="queston" id="question">
     <div class="container">
-      <h1 class="text-center q-head Big-text display-4">
-        Frequently Asked Questions
-      </h1>
+      <h1 class="text-center q-head pt-4 pb-3">Frequently Asked Questions</h1>
       <div class="card-subbody">
         <p class="text-center pb-3">
           Lorem ipsum dolor sit amet consetertur sadipcing tyorue<br />
           nonnamy airmad tempor invidunt ut labour magna aliqyuamim<br />Lorem
-          Lorem ipsum dolor sit amet consetertur sadipcing tyorue<br />
           nonnamy airmad tempor invidunt ut labour magna aliqyuamim<br />
           Lorem ipsum diam.
+        </p>
+        <p class="text-center pb-4">
+          Have any questions,Our time is always readily available ! Get In Touch
+          With Us
         </p>
       </div>
     </div>
   </div>
   <!--------------end ------------>
   <div class="account" id="account">
-    <div class="container text-center">
+    <div class="container">
       <div class="dropdown-section">
-        <div class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            id="navbarDropdown"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="true"
-          >
-            How To Open An Account
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider" /></li>
-            <li><a class="dropdown-item" href="#"></a></li>
-          </ul>
-        </div>
-        <div class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            id="navbarDropdown"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="true"
-          >
-            How To Book For Hospital
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider" /></li>
-            <li><a class="dropdown-item" href="#"></a></li>
-          </ul>
-        </div>
-        <div class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            id="navbarDropdown"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="true"
-          >
-            How To Book For Doctors
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider" /></li>
-            <li><a class="dropdown-item" href="#"></a></li>
-          </ul>
-        </div>
-        <div class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            id="navbarDropdown"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="true"
-          >
-            How to Book Clinician
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#"></a></li>
-            <li><a class="dropdown-item" href="#"></a></li>
-            <li><hr class="dropdown-divider" /></li>
-            <li><a class="dropdown-item" href="#"></a></li>
-          </ul>
-        </div>
+        <select
+          class="form-select form-select"
+          aria-label="from-select-lg example"
+        >
+          <option selected class="">How can i create an Account?</option>
+          <option value="Clinicain"><a href="">Clinicain</a></option>
+          <option value="Patients">
+            <router-link to="/patient">Patients</router-link>
+          </option>
+          <option value="Lab"><a href="">Labolatory</a></option>
+          <option value="Hospital"><a href="">Hospital</a></option>
+          <option value="Phamarcy"><a href="">Pharmacy</a></option>
+          <option value="Ambulance"><a href="">Ambulance</a></option>
+        </select>
+        <select
+          class="form-select form-select"
+          aria-label="from-select-lg example"
+        >
+          <option selected class="">How to Book a Doctor</option>
+          <option value="Clinicain"><a href="">Clinicain</a></option>
+          <option value="Patients">
+            <router-link to="/patient">Patients</router-link>
+          </option>
+          <option value="Lab"><a href="">Labolatory</a></option>
+          <option value="Hospital"><a href="">Hospital</a></option>
+          <option value="Phamarcy"><a href="">Pharmacy</a></option>
+          <option value="Ambulance"><a href="">Ambulance</a></option>
+        </select>
+        <select
+          class="form-select form-select"
+          aria-label="from-select-lg example"
+        >
+          <option selected class="">How can i Book a Hospital</option>
+          <option value="Clinicain"><a href="">Clinicain</a></option>
+          <option value="Patients">
+            <router-link to="/patient">Patients</router-link>
+          </option>
+          <option value="Lab"><a href="">Labolatory</a></option>
+          <option value="Hospital"><a href="">Hospital</a></option>
+          <option value="Phamarcy"><a href="">Pharmacy</a></option>
+          <option value="Ambulance"><a href="">Ambulance</a></option>
+        </select>
+        <select
+          class="form-select form-select"
+          aria-label="from-select-lg example"
+        >
+          <option selected class="">How can i Purchase Drugs?</option>
+          <option value="Clinicain"><a href="">Clinicain</a></option>
+          <option value="Patients">
+            <router-link to="/patient">Patients</router-link>
+          </option>
+          <option value="Lab"><a href="">Labolatory</a></option>
+          <option value="Hospital"><a href="">Hospital</a></option>
+          <option value="Phamarcy"><a href="">Pharmacy</a></option>
+          <option value="Ambulance"><a href="">Ambulance</a></option>
+        </select>
       </div>
     </div>
   </div>
   <!-----------------------End of Dropdown---------------->
-  <div class="newsletter pt-5" id="newsletter">
-    <div class="container">
-      <div class="Newsletter-section">
-        <div class="newsletter-text">
-          <h3>
-            Sign Up For Our Weekly Newsletter To Recieve Updated and Health Tip
-          </h3>
-        </div>
-        <div class="form-section text-center">
-          <form class="search-wrapper">
-            <input
-              type="text"
-              class="form"
-              placeholder="Enter your email..."
-              required
-              style="box-shadow: none; padding-right: 25px"
-            />
-            <button
-              type="submit"
-              class="btn3"
-              style="
-                width: 70px;
-                outline: none;
-                border: none;
-                height: 35px;
-                margin-bottom: -10px;
-                margin-left: -5.5em;
-              "
-            >
-              Submit
-            </button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
   <!--------------End of Nwletter------------>
-  <div class="footer text-left ml-auto">
+  <div class="footer">
     <div class="container">
       <div class="row">
+        <div class="Newsletter-section">
+          <div class="newsletter-text">
+            <h5>
+              Sign Up For Our Weekly Newsletter To Recieve Updated and Health
+              Tip
+            </h5>
+          </div>
+          <div class="form-section text-center">
+            <form class="search-wrapper">
+              <input
+                type="text"
+                class="form"
+                required
+                style="box-shadow: none;
+                padding-right: 25px
+                box-shadow: rbga(0, 0, 0, 0.31);
+                "
+              />
+              <button
+                type="submit"
+                class="btn3"
+                style="
+                  width: 70px;
+                  outline: none;
+                  border: none;
+                  height: 35px;
+                  margin-bottom: -10px;
+                  margin-left: -5.5em;
+                  background-color: rgba(60, 109, 167, 255);
+                  box-shadow: rbga(0, 0, 0, 0.31);
+                "
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
         <div class="col-md">
-          <div class="footer-img">
+          <div class="">
             <img
               src="../assets/facebook.png"
               class="img-foot"
-              width="30px"
-              height="30px"
+              width="20"
+              height="20"
             />
           </div>
         </div>
         <div class="col-md">
           <div class="company">
             <h3>COMPANY</h3>
-            <ul class="text-left ml">
-              <li class="text-left"><a href="">About Us</a></li>
+            <ul class="">
+              <li><a href="">About Us</a></li>
               <li><a href="">Blog</a></li>
               <li><a href="">Learn More</a></li>
               <li><a href="">Careers</a></li>
@@ -425,44 +415,51 @@ export default {};
 //   padding: 20px;
 //   box-sizing: border-box;
 // }
+body {
+  margin: 0;
+  padding: 0;
+}
 #homepage {
-  background: rgb(43, 13, 18);
-  margin-left: 50px;
+  background-color: rgba(254, 254, 254, 255);
+  margin-left: 30px;
   justify-content: center;
   width: 100%;
   min-width: 100vh;
   height: 80vh;
 }
 .first-section {
-  margin-top: 6em;
+  margin-top: 3em;
+}
+.first-section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.5em;
+  color: rgb(48, 42, 42);
+  font-family: EBCorp-Regular otf;
 }
 .second-section {
-  margin-top: 15em;
+  margin-top: 4em;
+  width: 100%;
+}
+strong {
+  font-size: 45px;
+  color: rgba(60, 109, 167, 270);
+  font-family: sans-serif;
+  font-weight: 500;
 }
 .first-text {
   width: 50%;
 }
-h3 {
-  font-family: cursive;
-  font-size: 30px;
+.img-fluid {
+  width: 70em;
+  height: auto;
 }
-.btn1 {
-  color: rgb(14, 14, 247);
+h2 {
+  font-family: sans-serif;
+  font-size: 27px;
   font-weight: 700;
-  font-family: cursive;
-  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.36);
-  margin-top: 20px;
-  border: none;
-  font-size: 20px;
-  width: 40%;
-  height: 13%;
-  border-radius: 5px;
-  max-width: 150px;
-  min-width: 150px;
-  outline: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  cursor: pointer;
+  text-align: left;
+  color: rgba(60, 109, 167, 255);
 }
 .front-img {
   width: 40%;
@@ -473,48 +470,54 @@ h3 {
 .category {
   min-height: 100vh;
   width: 100%;
-  margin-right: 50em;
+  margin: 0;
+  padding: 0;
 }
 .cards {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
-  align-items: space-evenly;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  padding: 0;
 }
 .card {
-  min-width: 150px;
-  max-width: 300px;
+  // min-width: 250px;
+  // max-width: 250px;
+  width: 330px;
   height: 200px;
+  display: flex;
   border-radius: 15px;
-  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.36);
-  background: white;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.15);
   border: none;
   margin: 20px;
   text-decoration: none;
 }
-.cards .card:hover {
-  background: blue;
-  color: white;
-}
 .card-header {
-  width: 20%;
-  height: 20%;
+  width: 15%;
+  height: 15%;
+  background-color: #afb1c4;
+  border: none;
 }
 .card img {
   border-radius: 50%;
   margin: 10px;
   padding: 2px;
   background-image: none;
-  background-color: pink;
-  width: 20%;
-  height: 20%;
+  background: #afb1c4;
+  width: 39px;
+  height: 39px;
+  border: none;
 }
 .card h3 {
   font-size: 18px;
   text-align: left;
-  color: black;
+  font-weight: 600;
+  color: rgb(100, 95, 95);
   display: block;
   padding: 10px;
+  font-family: sans-serif;
 }
 a {
   text-decoration: none;
@@ -523,22 +526,46 @@ a {
 .card-info {
   text-align: left;
   display: block;
-  color: black;
-  font-size: 16px;
+  color: rgb(48, 42, 42);
+  font-size: 15px;
   padding: 10px;
   font-weight: 400;
   margin-bottom: 20px;
   // line-height: 25px;
 }
+.card:hover {
+  background-color: blue;
+  color: white;
+}
 /*------------------End of card-------------------------- */
 .middle {
   min-height: 50vh;
+  width: 100%;
 }
 .middle-text {
-  font-size: 20px;
-  line-height: 1.5;
-  padding: 20px;
-  word-break: break-all;
+  font-size: 15px;
+  line-height: 3;
+  text-align: center;
+  font-weight: lighter;
+  margin: auto;
+}
+.btn1 {
+  height: 45px;
+  width: 200px;
+  color: rgb(21, 21, 145);
+  font-weight: 700;
+  box-shadow: 0px 20px 40px rgba(80, 78, 78, 0.34);
+  background-color: white;
+  border: none;
+  font-size: 16px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  max-width: 150px;
+  min-width: 150px;
+  outline: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor: pointer;
 }
 /*---------------------End of middle-----------*/
 #section {
@@ -556,24 +583,23 @@ a {
   display: flex;
 }
 .work-text {
-  margin-bottom: 30px;
   text-align: center;
   color: black;
 }
 .image-section {
   width: 50%;
-  padding-left: 10px;
+  padding-left: 13px;
 }
 .image {
-  height: 300px;
-  width: 50%;
+  height: 350px;
+  width: 60%;
   align-items: center;
   float: right;
   justify-content: center;
   border-bottom-right-radius: 5em;
   border-top-left-radius: 5em;
-  border: 1px solid black;
-  box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.877);
+  border: none;
+  box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.34);
   margin: 20px;
 }
 .card-img {
@@ -591,151 +617,129 @@ h5 {
   font-size: 20px;
   font-weight: 700;
   color: black;
+  font-family: cursive;
+  cursor: pointer;
+}
+.card:hover {
+  background-color: blue;
+  color: white;
 }
 /*-------------End of section ---------*/
 #question {
-  min-height: 30vh;
+  min-height: 40vh;
   width: 100%;
-  background-color: lightcyan;
+  background-color: rgb(231, 210, 230);
 }
 .q-head {
   font-size: 30px;
-  font-weight: 500;
-  color: black;
+  font-weight: 700;
+  color: rgb(48, 42, 42);
+  background: transparent;
+}
+.card-subbody p {
+  font: 1em sans-serif;
+  font-weight: lighter;
 }
 /*----------------End  */
 #account {
-  min-height: 30vh;
-  margin: 20px;
+  min-height: 40vh;
+  padding-left: 5em;
+  padding-right: 5em;
   justify-content: center;
   align-items: center;
 }
 .account {
   margin: 20px;
-  padding-left: 15%;
-  // justify-content: center;
-  // align-items: center;
-  min-height: 50vh;
+  min-height: 80vh;
 }
-.dropdown-section {
-  justify-content: center;
-  // align-items: center;
-  margin-bottom: 20px;
-}
-.dropdown a {
-  margin: 20px;
-  width: 80%;
-  float: left;
-  height: 40px;
-  margin-top: 20px;
-  border-radius: 10px;
-  box-shadow: 50px 20px 50px pink;
-  text-align: left;
-  left: 50px;
-  font-family: cursive;
-  color: black;
-}
-.dropdown-toggle {
-  float: right;
-}
-.nav-item {
-  padding: 10px;
-}
-
-.dropdown button {
-  width: 70%;
-  border: none;
-  float: center;
-  // text-align: left;
-  box-shadow: 0px 0px 20px 30px pink;
-  font-size: 15px;
-  font-weight: 700;
-}
-// .nav-link .dropdown-toggle {
-//   float: right;
+// .dropdown-section {
+//   justify-content: center;
+//   // align-items: center;
+//   margin-bottom: 20px;
 // }
-/*---------------------------End of dropdown-------------------------- */
-.newsletter {
-  min-height: 40vh;
+select {
+  margin: 10px;
+  float: left;
   width: 100%;
-  margin-top: 5em;
+  font-size: 14px;
+  font-family: sans-serif;
+  border: none;
+  font-weight: 600;
+  color: rgb(77, 52, 52);
+  box-shadow: 0 20px 30px rgb(0, 0, 0, 0.15);
 }
+/*---------------------------End of dropdown-------------------------- */
 .Newsletter-section {
-  margin: 50px;
   text-align: center;
-  margin-right: 30px;
 }
 .Newsletter-section .newsletter-text {
-  margin: 30px;
+  margin: 10px;
   text-align: center;
 }
-.newsletter-text h3 {
+.newsletter-text h5 {
   text-align: center;
-  margin: 20px;
-  margin-top: 20px;
-  font-weight: 200;
+  margin: 5px;
+  margin-top: 76px;
+  font-weight: lighter;
+  font-size: 15px;
   color: blue;
-  font-family: cursive;
+  font-family: sans-serif;
 }
 .form-section {
   margin: 0 10px;
 }
 .form-section .search-wrapper {
-  padding: 20px;
+  padding: 50px;
 }
 .search-wrapper input {
   border-radius: 20px;
-  border: 1px solid pink;
+  // border: 1px solid pink;
   width: 300px;
   height: 35px;
-  // z-index: -5;
+  z-index: -5;
   outline: none;
-  padding: 0 10px;
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.12);
+  padding: 0 50px;
+  margin-top: 2px;
+  border: 1px solid rgb(21, 21, 145);
+  box-shadow: 2px 30px 40px rgba(0, 0, 0, 0.12);
 }
 .form input {
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.12);
+  box-shadow: 2px 30px 40px rgba(0, 0, 0, 0.12);
 }
 .form button {
   margin: 10px;
   margin-top: 20px;
 }
 input {
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.12);
+  box-shadow: 2px 30px 40px rgba(0, 0, 0, 0.453);
   padding: 20px;
   box-sizing: border-box;
   padding-right: 80px;
+  border: 1px solid rgb(21, 21, 145);
   width: 100%;
 }
 .btn3 {
-  background-color: darkblue;
   box-shadow: 0px 20px 40px rgba(189, 167, 167, 0.36);
   color: white;
   font-size: 13px;
-  height: 40px;
+  height: 35px;
+  background-color: rgb(6, 6, 54);
   border-radius: 20px;
-  z-index: -10;
+  z-index: -5;
   outline: none;
   text-decoration: none;
   font-family: cursive;
-}
-.btn3:hover {
-  background-color: black;
-}
-::placeholder {
-  font-family: cursive;
-  padding: 10px;
-  color: blue;
-  font-size: 13px;
+  cursor: pointer;
 }
 /*------------End of newletter---------------- */
 .footer {
   width: 100%;
-  min-height: 50vh;
-  margin-top: 3em;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  min-height: 80vh;
+  // display: flex;
+  // justify-content: space-evenly;
+  // flex-wrap: wrap;
+  background-color: #f8f8fa;
+  margin-top: 26px;
 }
 .company {
   // justify-content: center;
@@ -762,10 +766,10 @@ input {
 }
 ul li a {
   list-style: none;
-  // text-align: left;
-  margin-right: 30px;
-  text-align-last: auto;
   text-decoration: none;
+}
+ul {
+  list-style: none;
 }
 .company ul li a {
   font-weight: 300;
@@ -840,6 +844,7 @@ ul li a {
   color: blue;
   font-size: 16px;
   position: relative;
+  float: left;
 }
 .resources h3 {
   color: blue;
@@ -856,7 +861,7 @@ ul li a {
   font-size: 13px;
   // display: block;
   transition: all 0.3s ease;
-  margin-right: 5em;
+  // margin-right: 5em;
 }
 .resources ul li a:hover {
   color: black;
@@ -893,6 +898,7 @@ ul li a {
   text-decoration: none;
   padding-top: 5px;
   font-size: 13px;
+  list-style: none;
   // display: block;
   transition: all 0.3s ease;
   // margin-right: 5em;
@@ -916,7 +922,7 @@ ul li a {
 }
 .copy-right {
   /* padding: 10px 5px; */
-  background: blue;
+  background: rgba(16, 76, 147, 255);
   /* height: 50px; */
   bottom: 0;
   /* left: 0;
@@ -978,7 +984,7 @@ ul li a {
 }
 @media (max-width: 645px) {
   .card {
-    width: 10px;
+    width: 100%;
     height: 100%;
     border-radius: 15px;
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.36);
