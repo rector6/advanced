@@ -39,7 +39,7 @@ a {
   margin: 10px;
   // padding-right: 30px;
   &.router-link-exact-active {
-    color: #42b9836e;
+    color: black;
   }
 }
 @media only screen and (min-width: 700px) {
