@@ -21,8 +21,8 @@ nav {
 nav a {
   text-decoration: none;
   color: rgb(21, 21, 145);
-  font-family: cursive;
-  font-weight: 500;
+  font-family: sans-serif;
+  font-weight: 700;
 }
 .navbar-brand {
   font-weight: 900;
@@ -42,17 +42,17 @@ a {
     color: #42b9836e;
   }
 }
-@media only screen and (min-width: 747px) {
+@media only screen and (min-width: 700px) {
   a {
-    font-weight: 600;
+    font-weight: 800;
     color: rgb(21, 21, 145);
     text-transform: capitalize;
     text-decoration: none;
     list-style: none;
-    margin: 5px;
+    margin: 8px;
     // padding-right: 30px;
     &.router-link-exact-active {
-      color: #42b9836e;
+      color: black;
     }
   }
 }
