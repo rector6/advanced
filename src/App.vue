@@ -34,7 +34,7 @@ nav a {
 }
 .navbar-brand span {
   color: darkblue;
-  font-size: 20px;
+  font-size: 15px;
   font-family: cursive;
   font-weight: 700;
 }
@@ -57,7 +57,7 @@ a {
     text-transform: capitalize;
     text-decoration: none;
     list-style: none;
-    margin: 8px;
+    margin: 5px;
     // padding-right: 30px;
     &.router-link-exact-active {
       color: black;
