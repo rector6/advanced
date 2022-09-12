@@ -10,7 +10,7 @@
 
 <style scoped lang="scss">
 nav {
-  position: absolute;
+  position: sticky;
   height: 70px;
   width: 100%;
   z-index: 10;
@@ -20,9 +20,9 @@ nav {
 }
 nav a {
   text-decoration: none;
-  color: rgba(60, 109, 167, 255);
+  color: rgb(21, 21, 145);
   font-family: cursive;
-  font-weight: 400;
+  font-weight: 500;
 }
 .navbar-brand {
   font-weight: 900;
@@ -31,15 +31,29 @@ nav a {
   color: darkblue;
 }
 a {
-  font-weight: 600;
-  color: #071a41;
+  font-weight: 700;
+  color: rgb(21, 21, 145);
   text-transform: capitalize;
   text-decoration: none;
   list-style: none;
   margin: 10px;
-  padding-right: 30px;
+  // padding-right: 30px;
   &.router-link-exact-active {
     color: #42b9836e;
+  }
+}
+@media only screen and (max-width: 600px) {
+  a {
+    font-weight: 600;
+    color: rgb(21, 21, 145);
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
+    margin: 5px;
+    // padding-right: 30px;
+    &.router-link-exact-active {
+      color: #42b9836e;
+    }
   }
 }
 </style>
