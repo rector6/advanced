@@ -782,144 +782,144 @@ ul li a {
   transition: all 0.3s ease;
   // margin-right: 5em;
 }
-// .company ul li a:hover {
-//   color: black;
-//   padding-left: 8px;
-// }
-// .company ul li:not(:last-child) {
-//   margin-bottom: 10px;
-// }
-// .company h3::before {
-//   content: "";
-//   position: absolute;
-//   left: 0;
-//   bottom: -10px;
-//   background-color: blue;
-//   height: 2px;
-//   box-sizing: border-box;
-//   width: 60px;
-// }
-// .Services {
-//   color: blue;
-//   font-size: 16px;
-//   margin-bottom: 20px;
-//   position: relative;
-// }
-// .Services h3 {
-//   color: blue;
-//   font-size: 14px;
-//   margin-bottom: 20px;
-//   position: relative;
-//   display: block;
-// }
-// .Services ul li a {
-//   font-weight: 300;
-//   font-family: sans-serif;
-//   text-transform: capitalize;
-//   text-decoration: none;
-//   padding-top: 5px;
-//   font-size: 13px;
-//   // display: block;
-//   transition: all 0.3s ease;
-//   // margin-right: 5em;
-// }
-// .Services ul li a:hover {
-//   color: black;
-//   padding-left: 8px;
-// }
-// .Services ul li:not(:last-child) {
-//   margin-bottom: 10px;
-// }
-// .Services h3::before {
-//   content: "";
-//   position: absolute;
-//   left: 0;
-//   bottom: -10px;
-//   background-color: blue;
-//   height: 2px;
-//   box-sizing: border-box;
-//   width: 60px;
-// }
-// .resources {
-//   color: blue;
-//   font-size: 16px;
-//   position: relative;
-//   float: left;
-// }
-// .resources h3 {
-//   color: blue;
-//   font-size: 14px;
-//   margin-bottom: 20px;
-//   position: relative;
-// }
-// .resources ul li a {
-//   font-weight: 300;
-//   font-family: sans-serif;
-//   text-transform: capitalize;
-//   text-decoration: none;
-//   padding-top: 5px;
-//   font-size: 13px;
-//   // display: block;
-//   transition: all 0.3s ease;
-//   // margin-right: 5em;
-// }
-// .resources ul li a:hover {
-//   color: black;
-//   padding-left: 8px;
-// }
-// .resources ul li:not(:last-child) {
-//   margin-bottom: 10px;
-// }
-// .resources h3::before {
-//   content: "";
-//   position: absolute;
-//   left: 0;
-//   bottom: -10px;
-//   background-color: blue;
-//   height: 2px;
-//   box-sizing: border-box;
-//   width: 60px;
-// }
-// .Contact {
-//   color: blue;
-//   font-size: 16px;
-//   position: relative;
-// }
-// .Contact h3 {
-//   color: darkblue;
-//   font-size: 15px;
-//   margin-bottom: 20px;
-//   position: relative;
-// }
-// .Contact ul li a {
-//   font-weight: 300;
-//   font-family: cursive;
-//   text-transform: capitalize;
-//   text-decoration: none;
-//   padding-top: 5px;
-//   font-size: 13px;
-//   list-style: none;
-//   // display: block;
-//   transition: all 0.3s ease;
-//   // margin-right: 5em;
-// }
-// .Contact ul li a:hover {
-//   color: black;
-//   padding-left: 8px;
-// }
-// .Contact ul li:not(:last-child) {
-//   margin-bottom: 10px;
-// }
-// .Contact h3::before {
-//   content: "";
-//   position: absolute;
-//   left: 0;
-//   bottom: -10px;
-//   background-color: blue;
-//   height: 2px;
-//   box-sizing: border-box;
-//   width: 60px;
-// }
+.company ul li a:hover {
+  color: black;
+  padding-left: 8px;
+}
+.company ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.company h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: blue;
+  height: 2px;
+  box-sizing: border-box;
+  width: 60px;
+}
+.Services {
+  color: blue;
+  font-size: 16px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.Services h3 {
+  color: blue;
+  font-size: 14px;
+  margin-bottom: 20px;
+  position: relative;
+  display: block;
+}
+.Services ul li a {
+  font-weight: 300;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding-top: 5px;
+  font-size: 13px;
+  // display: block;
+  transition: all 0.3s ease;
+  // margin-right: 5em;
+}
+.Services ul li a:hover {
+  color: black;
+  padding-left: 8px;
+}
+.Services ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.Services h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: blue;
+  height: 2px;
+  box-sizing: border-box;
+  width: 60px;
+}
+.resources {
+  color: blue;
+  font-size: 16px;
+  position: relative;
+  float: left;
+}
+.resources h3 {
+  color: blue;
+  font-size: 14px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.resources ul li a {
+  font-weight: 300;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding-top: 5px;
+  font-size: 13px;
+  // display: block;
+  transition: all 0.3s ease;
+  // margin-right: 5em;
+}
+.resources ul li a:hover {
+  color: black;
+  padding-left: 8px;
+}
+.resources ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.resources h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: blue;
+  height: 2px;
+  box-sizing: border-box;
+  width: 60px;
+}
+.Contact {
+  color: blue;
+  font-size: 16px;
+  position: relative;
+}
+.Contact h3 {
+  color: darkblue;
+  font-size: 15px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.Contact ul li a {
+  font-weight: 300;
+  font-family: cursive;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding-top: 5px;
+  font-size: 13px;
+  list-style: none;
+  // display: block;
+  transition: all 0.3s ease;
+  // margin-right: 5em;
+}
+.Contact ul li a:hover {
+  color: black;
+  padding-left: 8px;
+}
+.Contact ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.Contact h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: blue;
+  height: 2px;
+  box-sizing: border-box;
+  width: 60px;
+}
 .copy-right {
   /* padding: 10px 5px; */
   background: rgba(16, 76, 147, 255);
