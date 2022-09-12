@@ -954,7 +954,7 @@ ul li a {
 //     margin-bottom: 30px;
 //   }
 // }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 745px) {
   .card {
     width: 150px;
     height: 100%;

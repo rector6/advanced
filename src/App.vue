@@ -42,7 +42,7 @@ a {
     color: #42b9836e;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 747px) {
   a {
     font-weight: 600;
     color: rgb(21, 21, 145);
