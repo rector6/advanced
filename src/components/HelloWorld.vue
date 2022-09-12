@@ -324,7 +324,7 @@
             />
           </div>
         </div>
-        <div class="col">
+        <div class="col-md">
           <div class="company">
             <h3>COMPANY</h3>
             <ul class="">
@@ -335,7 +335,7 @@
             </ul>
           </div>
         </div>
-        <div class="col">
+        <div class="col-md">
           <div class="Services">
             <h3>SERVICES</h3>
             <ul>
@@ -348,7 +348,7 @@
             </ul>
           </div>
         </div>
-        <div class="col">
+        <div class="col-md">
           <div class="resources">
             <h3>RESOURCES</h3>
             <ul class="">
@@ -362,7 +362,7 @@
             </ul>
           </div>
         </div>
-        <div class="col">
+        <div class="col-md-2">
           <div class="Contact">
             <h3>Contact US</h3>
             <ul>
