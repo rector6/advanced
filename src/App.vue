@@ -1,6 +1,9 @@
 <template>
   <nav>
-    <div class="navbar-brand"></div>
+    <div class="navbar-brand">
+      <img src="./assets/clinikli.png" width="30" height="30" />
+      <span>Clinikli</span>
+    </div>
     <router-link to="/">Learn More</router-link>
     <router-link to="/about">About Us</router-link>
     <router-link to="/testimonia">SignIn</router-link>
@@ -25,10 +28,15 @@ nav a {
   font-weight: 700;
 }
 .navbar-brand {
-  font-weight: 900;
-  font-family: Gill;
-  font-size: 50px;
+  float: left;
+}
+.navbar-brand img {
+}
+.navbar-brand span {
   color: darkblue;
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: 700;
 }
 a {
   font-weight: 700;
