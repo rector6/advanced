@@ -1,12 +1,12 @@
 <template>
-  <div class="full" id="homepage bg-danger">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-sm-6 col-md-8 pt-5 first-section">
-          <h2>
-            You a click away<br />
-            from getting Health services!
-          </h2>
+  <div class="banner">
+    <div class="row">
+      <div class="banner-section">
+        <div class="text-area">
+          <h1>
+            You a click away <br />
+            from getting Health Service
+          </h1>
           <p class="pt-3">
             Lorem ipsum dolor sit amet consetertur sadipcing tyorue nonnamy
             airmad tempor<br />invidunt ut labour magna aliqyuamim
@@ -19,14 +19,8 @@
             Sign Up Now
           </button>
         </div>
-        <div class="col-6 col-md-4">
-          <div class="second-section">
-            <img
-              src="../assets/font-img.png"
-              class="img-fluid w-1/2"
-              style="border:none margin-left: 30px width: 100% background-color: rgba(60, 109 ,167,255)"
-            />
-          </div>
+        <div class="image-area">
+          <img src="../assets/font-img.png" />
         </div>
       </div>
     </div>
@@ -37,50 +31,63 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-#homepage {
-  background-color: rgba(254, 254, 254, 255);
+.banner {
   width: 100vw;
-  height: 80vh;
+  min-height: 80vh;
+  background-color: rgba(254, 254, 254, 255);
+  margin: 30px;
 }
-.first-section {
-  margin-top: 3em;
-  text-align: left;
+.banner-section {
+  display: flex;
 }
-.second-section {
-  margin-top: 4em;
+.text-area {
   width: 100%;
-}
-strong {
-  font-size: 45px;
-  color: rgba(60, 109, 167, 270);
-  font-family: sans-serif;
-  font-weight: 500;
+  margin: 10px;
+  display: block;
   text-align: left;
 }
-.first-text {
-  width: 50%;
+h1 {
+  font-display: block;
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 550;
+  color: rgb(94, 94, 191);
 }
-.img-fluid {
-  width: 70em;
-  height: auto;
+.image-area {
+  width: 100%;
+  margin: 10px;
 }
-h2 {
-  font-family: sans-serif;
-  font-size: 60px;
-  padding: 20px;
-  font-weight: 700;
-  text-align: left;
-  color: rgba(60, 109, 167, 255);
+img {
+  width: 100%;
+  min-height: auto;
+  margin: 10px;
+  margin-right: 30px;
 }
-.front-img {
-  width: 40%;
-  padding-left: 10em;
-  margin-bottom: 20em;
+@media screen and (max-width: 750px) {
+  .banner {
+    width: 100vw;
+    min-height: 80vh;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .first-section {
+    margin-top: 3em;
+    text-align: left;
+    width: 100%;
+  }
+  .second-section {
+    margin-top: 3em;
+    width: 100%;
+  }
+  img {
+    width: 100%;
+  }
 }
 </style>
