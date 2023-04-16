@@ -2,7 +2,7 @@
   <div class="banner">
     <div class="row">
       <div class="banner-section">
-        <div class="col-md-4 col-sm-6 text-area">
+        <div class="col-md-4 col-sm-12text-area">
           <h1>
             You a click away <br />
             from getting Health Service
@@ -19,7 +19,7 @@
             Sign Up Now
           </button>
         </div>
-        <div class="col-md-4 col-sm-6 image-area">
+        <div class="col-md-4 col-sm-12 image-area">
           <img src="../assets/font-img.png" />
         </div>
       </div>
