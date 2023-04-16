@@ -7,7 +7,7 @@
             You a click away <br />
             from getting Health Service
           </h1>
-          <p class="pt-3">
+          <p class="pt-3 pb-5">
             Lorem ipsum dolor sit amet consetertur sadipcing tyorue nonnamy
             airmad tempor<br />invidunt ut labour magna aliqyuamim
           </p>
@@ -48,7 +48,7 @@ export default {};
 }
 .text-area {
   width: 100%;
-  margin: 10px;
+  margin: 70px;
   display: block;
   text-align: left;
 }
@@ -65,9 +65,7 @@ h1 {
 }
 img {
   width: 100%;
-  min-height: auto;
-  margin: 10px;
-  margin-right: 30px;
+  height: 50vh;
 }
 @media screen and (max-width: 750px) {
   .banner {
