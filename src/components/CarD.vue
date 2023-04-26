@@ -61,9 +61,9 @@ export default {};
 <style scoped>
 .category {
   min-height: 100vh;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
 }
 .cards {
   display: flex;
@@ -71,14 +71,13 @@ export default {};
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin: 20px;
+  margin: 0px;
   padding: 0;
 }
 .card {
   min-width: 250px;
   width: 330px;
   height: 200px;
-  display: flex;
   border-radius: 15px;
   box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.15);
   border: none;

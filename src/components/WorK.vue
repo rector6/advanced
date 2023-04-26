@@ -118,7 +118,7 @@ export default {};
 }
 .image {
   height: 350px;
-  width: 60%;
+  width: 350px;
   align-items: center;
   float: right;
   justify-content: center;
@@ -166,5 +166,11 @@ h5 {
 .card-subbody p {
   font: 1em sans-serif;
   font-weight: lighter;
+}
+@media screen and (min-width: 600;) {
+  .image {
+    height: 200px;
+    width: 100%;
+  }
 }
 </style>

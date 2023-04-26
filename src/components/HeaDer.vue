@@ -1,8 +1,8 @@
 <template>
-  <div class="banner">
-    <div class="container">
-      <div class="row">
-        <div class="col-md">
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <div class="banner-section">
           <div class="text-area">
             <h1>You a click away from getting<br />Health Service</h1>
             <p class="pt-3 pb-5">
@@ -18,8 +18,10 @@
               Sign Up Now
             </button>
           </div>
-          <div class="col-md image-area">
-            <img src="../assets/font-img.png" class="image-fluid" />
+          <div class="col-6">
+            <div class="image-area">
+              <img src="../assets/font-img.png" class="image-fluid" />
+            </div>
           </div>
         </div>
       </div>
@@ -37,15 +39,15 @@ export default {};
   padding: 0;
   box-sizing: border-box;
 }
-.banner {
+.container {
   width: 100vw;
   min-height: 100vh;
   background-color: rgba(254, 254, 254, 255);
-  margin: 10px;
+  padding: 20px;
 }
 .banner-section {
   display: flex;
-  padding: 10px;
+  width: 100vw;
 }
 .text-area {
   margin: 10px;
@@ -94,27 +96,24 @@ img.image-area .mage-fluid {
   margin-left: 100px;
   padding: 20px;
 }
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 600px) {
   .banner {
     width: 100vw;
     min-height: 80vh;
-    display: flex;
-    flex-direction: column;
   }
-  .row {
-    flex-direction: column;
+  .banner-section {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
-  .first-section {
-    margin-top: 3em;
-    text-align: left;
+  .image-area {
     width: 100%;
+    justify-content: center;
+    align-items: center;
   }
-  .second-section {
-    margin-top: 3em;
-    width: 100%;
-  }
-  img {
-    width: 100%;
+  .image-fluid {
+    width: 300px;
+    margin-right: 10em;
   }
 }
 </style>

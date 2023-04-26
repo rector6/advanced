@@ -24,15 +24,15 @@ export default {};
 
 <style scoped>
 .middle {
-  min-height: 50vh;
+  min-height: 30vh;
   width: 100vw;
-  background: rgb(234, 234, 242);
+  background: #eaeaf209;
   box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.34);
 }
 .middle-text {
   font-size: 15px;
   text-align: center;
-  margin: 10px;
+  padding: 20px;
 }
 .btn1 {
   height: 45px;
