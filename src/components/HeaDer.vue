@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="banner-section">
-          <div class="col-6 text-area">
+          <div class="col-md text-area">
             <h1>
               You a click away <br />
               from getting Health Service
@@ -20,7 +20,7 @@
               Sign Up Now
             </button>
           </div>
-          <div class="col-6 image-area">
+          <div class="col-md-6 image-area">
             <img src="../assets/font-img.png" class="image-fluid" />
           </div>
         </div>

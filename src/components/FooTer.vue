@@ -42,10 +42,10 @@
         <div class="col">
           <div class="">
             <img
-              src="../assets/facebook.png"
+              src="../assets/SITEICON2.png"
               class="img-foot"
-              width="20"
-              height="20"
+              width="100"
+              height="100"
             />
           </div>
         </div>
@@ -102,27 +102,10 @@
   <div class="col">
     <div class="row copy-right">
       <div class="social">
-        <a href=""
-          ><img
-            src="../assets/facebook.png"
-            width="30px"
-            height="30px"
-            class="foot-img"
-        /></a>
-        <a href=""
-          ><img
-            src="../assets/whapsapp.png"
-            width="30px"
-            height="30px"
-            class="foot-img"
-        /></a>
-        <a href=""
-          ><img
-            src="../assets/instagram.jpeg"
-            width="30px"
-            height="30px"
-            class="foot-img"
-        /></a>
+        <a href=""><i class="fa fa-facebook"></i></a>
+        <a href=""><i class="fa fa-whatsapp"></i></a>
+        <a href=""><i class="fa fa-instagram"></i></a>
+        <a href=""><i class="fa fa-twitter"></i></a>
         <p>@2020Clinikli All Right Reserve</p>
       </div>
     </div>
@@ -198,8 +181,8 @@ input {
 }
 /*------------End of newletter---------------- */
 .footer {
-  width: 100%;
-  min-height: 80vh;
+  width: 100vw;
+  min-height: 60vh;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -215,12 +198,12 @@ input {
   display: block;
 }
 .img-foot {
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 250px;
   max-width: 300px;
   padding-right: 10px;
   float: left;
-  margin-top: 6em;
+  margin-top: 3em;
 }
 h3 {
   color: blue;
@@ -388,6 +371,7 @@ ul li a {
   background: rgba(16, 76, 147, 255);
   /* height: 50px; */
   bottom: 0;
+  width: 100vw;
   /* left: 0;
   bottom: 0; */
 }
@@ -396,13 +380,18 @@ ul li a {
   /* margin-top: 3px; */
   padding-right: 20px;
 }
-.social img {
+.social i {
   float: right;
   margin: 5px;
   border-radius: 50%;
 }
-.social img:hover {
+.social i:hover {
   color: blue;
+}
+.fa {
+  font-size: 20px;
+  color: white;
+  line-height: 40px;
 }
 .social p {
   text-align: left;
