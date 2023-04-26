@@ -2,12 +2,13 @@
   <div class="banner">
     <div class="container">
       <div class="row">
-        <div class="col-md banner-section">
+        <div class="col-md">
           <div class="text-area">
             <h1>You a click away from getting<br />Health Service</h1>
             <p class="pt-3 pb-5">
               Lorem ipsum dolor sit amet consetertur sadipcing tyorue nonnamy
-              airmad tempor<br />invidunt ut labour magna aliqyuamim
+              airmad tempor invidunt ut labour magna aliqyuamim airmad tempor
+              invidunt ut labour magna aliqyuamim
             </p>
             <button
               type="submit"
@@ -44,7 +45,7 @@ export default {};
 }
 .banner-section {
   display: flex;
-  padding: 30px;
+  padding: 10px;
 }
 .text-area {
   margin: 10px;
@@ -86,8 +87,8 @@ img {
   height: 50vh;
 }
 img.image-area .mage-fluid {
-  padding: 30px;
-  margin: 30px;
+  padding: 10px;
+  margin: 10px;
 }
 .mage-fluid {
   margin-left: 100px;
