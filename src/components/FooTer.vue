@@ -198,8 +198,8 @@ input {
   display: block;
 }
 .img-foot {
-  height: 200px;
-  width: 250px;
+  height: 150px;
+  width: 150px;
   max-width: 300px;
   padding-right: 10px;
   float: left;
