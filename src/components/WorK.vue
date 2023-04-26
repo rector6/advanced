@@ -7,7 +7,7 @@
           <div class="image-section pb-5">
             <img src="../assets/doc.jpg" class="image" />
           </div>
-          <div class="col-lg pb-2">
+          <div class="col-6 pb-2">
             <div class="card-section pb-5">
               <div
                 class="card"
