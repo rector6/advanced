@@ -68,21 +68,17 @@ export default {};
 </script>
 
 <style scoped>
-#account {
+.account {
   min-height: 40vh;
-  padding-left: 5em;
-  padding-right: 5em;
+  width: 100vw;
   justify-content: center;
   align-items: center;
-}
-.account {
-  margin: 20px;
-  min-height: 80vh;
 }
 .dropdown-section {
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+  width: 100%;
 }
 select {
   margin: 10px;
