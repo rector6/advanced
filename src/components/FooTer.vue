@@ -52,7 +52,7 @@
         <div class="col-md">
           <div class="company">
             <h3>COMPANY</h3>
-            <ul class="">
+            <ul>
               <li><a href="">About Us</a></li>
               <li><a href="">Blog</a></li>
               <li><a href="">Learn More</a></li>
@@ -129,7 +129,7 @@ export default {};
   margin: 5px;
   margin-top: 76px;
   font-weight: lighter;
-  font-size: 15px;
+  font-size: 17px;
   color: blue;
   font-family: sans-serif;
 }
@@ -184,8 +184,6 @@ input {
   width: 100vw;
   min-height: 60vh;
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
   background-color: #f8f8fa;
   margin-top: 26px;
 }
@@ -195,7 +193,6 @@ input {
   margin: 0;
   padding-top: 30px;
   padding-bottom: 5px;
-  display: block;
 }
 .img-foot {
   height: 150px;
@@ -209,13 +206,10 @@ h3 {
   color: blue;
   font-size: 14px;
 }
-ul li a {
+ul li {
   list-style: none;
   text-decoration: none;
-  list-style: none;
-}
-ul {
-  list-style: none;
+  text-align: left;
 }
 ul li a {
   font-weight: 300;
@@ -223,10 +217,10 @@ ul li a {
   text-transform: capitalize;
   text-decoration: none;
   padding-top: 5px;
-  font-size: 13px;
-  display: block;
+  font-size: 15px;
+  text-align: left;
   transition: all 0.3s ease;
-  margin-right: 5em;
+  /* margin-right: 5em; */
 }
 .company ul li a:hover {
   color: black;
@@ -267,7 +261,6 @@ ul li a {
   font-size: 13px;
   display: block;
   transition: all 0.3s ease;
-  margin-right: 5em;
 }
 .Services ul li a:hover {
   color: black;
@@ -329,7 +322,7 @@ ul li a {
 .Contact {
   color: blue;
   font-size: 16px;
-  position: relative;
+  /* position: relative; */
 }
 .Contact h3 {
   color: darkblue;
@@ -338,7 +331,7 @@ ul li a {
   margin-bottom: 20px;
   position: relative;
 }
-.Contact ul li a {
+/* .Contact ul li a {
   font-weight: 300;
   font-family: sans-serif;
   text-transform: capitalize;
@@ -349,7 +342,7 @@ ul li a {
   display: block;
   transition: all 0.3s ease;
   margin-right: 5em;
-}
+} */
 .Contact ul li a:hover {
   color: black;
   padding-left: 8px;

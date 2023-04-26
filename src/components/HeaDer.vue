@@ -8,6 +8,8 @@
             <p class="pt-3 pb-5">
               Lorem ipsum dolor sit amet consetertur sadipcing tyorue nonnamy
               airmad tempor invidunt ut labour magna aliqyuamim airmad tempor
+              Lorem ipsum dolor sit amet consetertur sadipcing tyorue nonnamy
+              airmad tempor invidunt ut labour magna aliqyuamim airmad tempor
               invidunt ut labour magna aliqyuamim
             </p>
             <button
@@ -18,7 +20,7 @@
               Sign Up Now
             </button>
           </div>
-          <div class="">
+          <div class="col-6">
             <div class="image-area">
               <img src="../assets/font-img.png" class="image-fluid" />
             </div>
@@ -41,7 +43,7 @@ export default {};
 }
 .container {
   width: 100vw;
-  min-height: 100vh;
+  min-height: 70vh;
   background-color: rgba(254, 254, 254, 255);
   padding: 20px;
 }

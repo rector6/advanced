@@ -37,3 +37,10 @@ export default {
   },
 };
 </script>
+<style>
+.home {
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+</style>

@@ -94,12 +94,6 @@ export default {};
 </script>
 
 <style scoped>
-#section {
-  min-height: 80vh;
-  width: 100vw;
-  background: rgb(240, 237, 237);
-  /* margin: 20px; */
-}
 .section {
   width: 100%;
   height: 60%;
