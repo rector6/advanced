@@ -2,7 +2,7 @@
   <header :class="{ 'scrolled-nav': scrolledNav }">
     <nav class="navbar sticky">
       <div class="logo">
-        <h1>Resort</h1>
+        <h1>Clinikli</h1>
       </div>
       <div class="nav-link">
         <ul v-show="!mobile" class="navigation">
@@ -12,6 +12,12 @@
           </li>
           <li>
             <router-link to="{ name: 'SignIn' }">SignIn</router-link>
+          </li>
+          <li>
+            <router-link to="{ name: 'Blog' }">Blog</router-link>
+          </li>
+          <li>
+            <router-link to=""> <i class="fa fa-search"></i></router-link>
           </li>
         </ul>
         <div class="icon">
@@ -24,12 +30,18 @@
         </div>
         <transition name="mobile-nav">
           <ul v-show="mobileNav" class="dropdown-nav">
+            <div class="logo">
+              <h1>Clinikli</h1>
+            </div>
             <li><router-link to="{ name: 'Home' }">Learn</router-link></li>
             <li>
               <router-link to="{ name: 'About Us' }">About Us</router-link>
             </li>
             <li>
-              <router-link to="{ name: 'News' }">SignIn</router-link>
+              <router-link to="{ name: 'signin' }">SignIn</router-link>
+            </li>
+            <li>
+              <router-link to="{ name: 'Blog' }">Blog</router-link>
             </li>
           </ul>
         </transition>
@@ -119,8 +131,10 @@ li {
 li a {
   text-decoration: none;
   list-style: none;
-  font-size: 20px;
-  color: rgb(94, 94, 191);
+  font-size: 19px;
+  font-family: cursive;
+  line-height: 50px;
+  color: blue;
 }
 ul li a {
   color: rgb(107, 107, 107);
@@ -144,17 +158,11 @@ li:hover {
   right: 24px;
   height: 100%;
 }
-i {
-  cursor: pointer;
-  font-size: 30px;
-  color: black;
-  transition: 0.5s ease all;
-}
 .fa {
-  color: black;
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 500;
-  margin: 0 20px;
+  margin: 10px;
+  color: white;
 }
 .icon-active {
   transform: rotate(180dg);
@@ -163,13 +171,15 @@ i {
   display: flex;
   position: relative;
   align-items: center;
-  width: 100%;
+  width: 100vw;
+  background: rgb(21, 21, 145);
   scroll-behavior: none;
   color: #fff;
   top: 0;
-  height: 90px;
+  height: 70px;
   padding: 0 10px;
   z-index: 99;
+  line-height: 20em;
   position: sticky;
   @media (min-width: 1140px) {
     min-width: 1140px;
@@ -208,15 +218,21 @@ i {
   height: 100%;
   width: 100%;
   max-width: 250px;
-  background-color: white;
+  background-color: rgb(21, 21, 145);
+  color: white;
   top: 0;
   left: 0;
 
-  li {
-    margin-left: 0;
-    color: black;
+  li a {
+    margin-left: 50px;
+    text-align: right;
+    color: white;
     .link {
       color: black;
+      text-align: center;
+    }
+    .logo {
+      margin-left: 50px;
     }
     .mobile-nav-enter-active,
     .mobile-nav-enter-active {
