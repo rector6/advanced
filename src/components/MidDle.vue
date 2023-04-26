@@ -4,8 +4,9 @@
       <div class="row">
         <p class="text-center middle-text pt-5">
           Lorem Ipsum dolor sit amet conseture sapidicsing elitr, sad diam
-          noneny<br />
-          eirmond tempor invidunt ut labour et dore magna aligua erat,sad diam.
+          noneny eirmond tempor invidunt ut labour et dore magna aligua erat,sad
+          noneny eirmond tempor invidunt ut labour et dore magna aligua erat,sad
+          diam.
         </p>
         <div class="text-center pt-4 pb-3">
           <button type="submit" title="Signup button" class="btn1 btn-light">
@@ -30,10 +31,8 @@ export default {};
 }
 .middle-text {
   font-size: 15px;
-  line-height: 3;
   text-align: center;
-  font-weight: lighter;
-  margin: auto;
+  margin: 10px;
 }
 .btn1 {
   height: 45px;

@@ -2,7 +2,7 @@
   <div class="banner">
     <div class="container">
       <div class="row">
-        <div class="col-6 banner-section">
+        <div class="col-md banner-section">
           <div class="text-area">
             <h1>You a click away from getting<br />Health Service</h1>
             <p class="pt-3 pb-5">
@@ -38,9 +38,9 @@ export default {};
 }
 .banner {
   width: 100vw;
-  min-height: 80vh;
+  min-height: 100vh;
   background-color: rgba(254, 254, 254, 255);
-  margin: 30px;
+  margin: 10px;
 }
 .banner-section {
   display: flex;
@@ -49,10 +49,12 @@ export default {};
 .text-area {
   margin: 10px;
   padding: 20px;
+  width: 100%;
 }
 .image-area {
   padding: 30px;
   margin: 20px;
+  width: 100%;
 }
 .btn1 {
   height: 45px;
