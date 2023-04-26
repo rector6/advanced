@@ -131,19 +131,19 @@ li {
 li a {
   text-decoration: none;
   list-style: none;
-  font-size: 19px;
-  font-family: sans-serif;
-  line-height: 50px;
+  font-size: 20px;
+  font-family: "poppins";
   color: blue;
+  margin: 50px;
 }
 ul li a {
-  color: rgb(107, 107, 107);
   font-weight: 400;
   text-decoration: none;
-  line-height: 30px;
+  line-height: 50px;
+  color: rgb(245, 238, 238);
   display: flex;
   margin: 15px;
-  margin-top: 30px;
+  margin-top: 10px;
   text-align: right;
 }
 li:hover {
@@ -198,7 +198,10 @@ li:hover {
   margin-right: 100px;
 }
 .logo {
-  margin: 10px 0;
+  margin: 20px;
+}
+h1 {
+  font-size: 25px;
 }
 .logo img {
   font-size: 30px;

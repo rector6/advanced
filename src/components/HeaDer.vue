@@ -2,12 +2,9 @@
   <div class="banner">
     <div class="container">
       <div class="row">
-        <div class="banner-section">
-          <div class="col-md text-area">
-            <h1>
-              You a click away <br />
-              from getting Health Service
-            </h1>
+        <div class="col-6 banner-section">
+          <div class="text-area">
+            <h1>You a click away from getting<br />Health Service</h1>
             <p class="pt-3 pb-5">
               Lorem ipsum dolor sit amet consetertur sadipcing tyorue nonnamy
               airmad tempor<br />invidunt ut labour magna aliqyuamim
@@ -20,7 +17,7 @@
               Sign Up Now
             </button>
           </div>
-          <div class="col-md-6 image-area">
+          <div class="col-md image-area">
             <img src="../assets/font-img.png" class="image-fluid" />
           </div>
         </div>
@@ -77,7 +74,7 @@ export default {};
 }
 h1 {
   font-display: block;
-  font-size: 50px;
+  font-size: 60px;
   line-height: 70px;
   font-weight: 550;
   color: rgb(94, 94, 191);
