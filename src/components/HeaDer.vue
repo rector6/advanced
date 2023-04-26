@@ -18,7 +18,7 @@
               Sign Up Now
             </button>
           </div>
-          <div class="col-6">
+          <div class="">
             <div class="image-area">
               <img src="../assets/font-img.png" class="image-fluid" />
             </div>
