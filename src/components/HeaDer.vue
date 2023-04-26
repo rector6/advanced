@@ -1,26 +1,28 @@
 <template>
   <div class="banner">
-    <div class="row">
-      <div class="banner-section">
-        <div class="col-md-4 col-sm-12text-area">
-          <h1>
-            You a click away <br />
-            from getting Health Service
-          </h1>
-          <p class="pt-3 pb-5">
-            Lorem ipsum dolor sit amet consetertur sadipcing tyorue nonnamy
-            airmad tempor<br />invidunt ut labour magna aliqyuamim
-          </p>
-          <button
-            type="submit"
-            title="Signup button"
-            class="btn1 btn-light active"
-          >
-            Sign Up Now
-          </button>
-        </div>
-        <div class="col-md-4 col-sm-12 image-area">
-          <img src="../assets/font-img.png" />
+    <div class="container">
+      <div class="row">
+        <div class="banner-section">
+          <div class="col-6 text-area">
+            <h1>
+              You a click away <br />
+              from getting Health Service
+            </h1>
+            <p class="pt-3 pb-5">
+              Lorem ipsum dolor sit amet consetertur sadipcing tyorue nonnamy
+              airmad tempor<br />invidunt ut labour magna aliqyuamim
+            </p>
+            <button
+              type="submit"
+              title="Signup button"
+              class="btn1 btn-light active"
+            >
+              Sign Up Now
+            </button>
+          </div>
+          <div class="col-6 image-area">
+            <img src="../assets/font-img.png" class="image-fluid" />
+          </div>
         </div>
       </div>
     </div>
@@ -45,12 +47,33 @@ export default {};
 }
 .banner-section {
   display: flex;
+  padding: 30px;
 }
 .text-area {
-  width: 100%;
-  margin: 70px;
-  display: block;
-  text-align: left;
+  margin: 10px;
+  padding: 20px;
+}
+.image-area {
+  padding: 30px;
+  margin: 20px;
+}
+.btn1 {
+  height: 45px;
+  width: 200px;
+  color: rgb(21, 21, 145);
+  font-weight: 700;
+  box-shadow: 0px 20px 40px rgba(80, 78, 78, 0.34);
+  background-color: white;
+  border: none;
+  font-size: 16px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  max-width: 150px;
+  min-width: 150px;
+  outline: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor: pointer;
 }
 h1 {
   font-display: block;
@@ -59,18 +82,24 @@ h1 {
   font-weight: 550;
   color: rgb(94, 94, 191);
 }
-.image-area {
-  width: 100%;
-  margin: 10px;
-}
 img {
-  width: 100%;
+  width: 50%;
   height: 50vh;
 }
-@media screen and (max-width: 750px) {
+img.image-area .mage-fluid {
+  padding: 30px;
+  margin: 30px;
+}
+.mage-fluid {
+  margin-left: 100px;
+  padding: 20px;
+}
+@media screen and (max-width: 490px) {
   .banner {
     width: 100vw;
     min-height: 80vh;
+    display: flex;
+    flex-direction: column;
   }
   .row {
     flex-direction: column;

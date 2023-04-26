@@ -71,7 +71,7 @@ export default {};
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin: auto;
+  margin: 20px;
   padding: 0;
 }
 .card {
@@ -114,6 +114,9 @@ a {
   text-decoration: none;
   text-align: auto;
 }
+a:hover {
+  color: white;
+}
 .card-info {
   text-align: left;
   display: block;
@@ -126,6 +129,12 @@ a {
 }
 .card:hover {
   background-color: blue;
+  color: white;
+}
+.card-info:hover {
+  color: white;
+}
+a .card:hover {
   color: white;
 }
 </style>

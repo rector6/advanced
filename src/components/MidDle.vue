@@ -21,10 +21,12 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 .middle {
   min-height: 50vh;
-  width: 100%;
+  width: 100vw;
+  background: rgb(234, 234, 242);
+  box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.34);
 }
 .middle-text {
   font-size: 15px;

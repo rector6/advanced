@@ -2,10 +2,10 @@
   <div class="section" id="section">
     <div class="container">
       <div class="row">
-        <h1 class="work-text pb-2 pt-4">How it Works</h1>
+        <h1 class="work-text pb-4 pt-4">How it Works</h1>
         <div class="section d-flex justify-content-center">
           <div class="image-section pb-5">
-            <img src="../assets/imgcard.png" class="image" />
+            <img src="../assets/doc.jpg" class="image" />
           </div>
           <div class="col-lg pb-2">
             <div class="card-section pb-5">
@@ -16,8 +16,8 @@
                   height: 80px;
                   max-width: 500px;
                   min-width: 300px;
-                  <!-- margin: 25px; -->
-                  border-radius: 5px;
+                  margin: 10px;
+                  border-radius: 10px;
                   box-shadow: 22px 30px 30px 40px rgba(0, 0, 0, 0.12);
                   @media screen (max-width: 764px) {
                     width: 100%;
@@ -43,7 +43,7 @@
                   height: 80px;
                   max-width: 500px;
                   min-width: 250px;
-                  <!-- margin: 20px; -->
+                  margin: 10px;
                   border-radius: 10px;
                   box-shadow: 22px 30px 30px 40px rgba(0, 0, 0, 0.12);
                   @media screen (max-width: 764px) {
@@ -64,7 +64,7 @@
                   height: 50%;
                   max-width: 500px;
                   min-width: 250px;
-                  margin: 20px;
+                  margin: 10px;
                   border-radius: 10px;
                   box-shadow: 2px 30px 40px rgba(0, 0, 0, 0.12);
                   @media screen (max-width: 764px) {
@@ -93,4 +93,78 @@
 export default {};
 </script>
 
-<style></style>
+<style scoped>
+#section {
+  min-height: 80vh;
+  width: 100vw;
+  background: rgb(240, 237, 237);
+  /* margin: 20px; */
+}
+.section {
+  width: 100%;
+  height: 60%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+}
+.work-text {
+  text-align: center;
+  color: black;
+}
+.image-section {
+  width: 50%;
+  padding-left: 13px;
+}
+.image {
+  height: 350px;
+  width: 60%;
+  align-items: center;
+  float: right;
+  justify-content: center;
+  border-bottom-right-radius: 5em;
+  border-top-left-radius: 5em;
+  border: none;
+  box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.34);
+  margin: 20px;
+}
+.card-img {
+  width: 50px;
+  margin: 10px;
+  border-radius: 30px 30px;
+  left: 20px;
+}
+.card-section {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+  font-family: cursive;
+  cursor: pointer;
+}
+.card:hover {
+  background-color: blue;
+  color: white;
+  transition: 0.5sec;
+}
+/*-------------End of section ---------*/
+#question {
+  min-height: 40vh;
+  width: 100%;
+  background-color: rgb(231, 210, 230);
+}
+.q-head {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(48, 42, 42);
+  background: transparent;
+}
+.card-subbody p {
+  font: 1em sans-serif;
+  font-weight: lighter;
+}
+</style>

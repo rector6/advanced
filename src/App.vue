@@ -84,7 +84,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -119,9 +119,10 @@ li {
 li a {
   text-decoration: none;
   list-style: none;
+  font-size: 20px;
+  color: rgb(94, 94, 191);
 }
 ul li a {
-  font-size: 18.4px;
   color: rgb(107, 107, 107);
   font-weight: 400;
   text-decoration: none;
@@ -134,11 +135,6 @@ ul li a {
 li:hover {
   border-bottom: 2px solid blue;
   transition: 0.5s ease-out;
-}
-@media (min-width: 750px) {
-  li:hover {
-    border-bottom: 2px solid blue;
-  }
 }
 .icon {
   display: flex;
@@ -188,7 +184,7 @@ i {
 .nav-link ul {
   display: flex;
   color: white;
-  font-size: 30px;
+  font-size: 100px;
   margin-right: 100px;
 }
 .logo {

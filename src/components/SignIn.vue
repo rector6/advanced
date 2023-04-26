@@ -1,6 +1,6 @@
 <template>
   <div class="account" id="account">
-    <div class="container">
+    <div class="container pb-4">
       <div class="dropdown-section">
         <select
           class="form-select form-select"
@@ -67,7 +67,7 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 #account {
   min-height: 40vh;
   padding-left: 5em;

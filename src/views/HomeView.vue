@@ -1,11 +1,11 @@
 <template>
   <div class="home">
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <HelloWorld />
     <HeaDer />
     <CarD />
     <MidDle />
-    <SignIn />
     <WorK />
+    <SignIn />
     <AsK />
     <FooTer />
     <router-view />
