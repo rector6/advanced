@@ -132,7 +132,7 @@ li a {
   text-decoration: none;
   list-style: none;
   font-size: 19px;
-  font-family: cursive;
+  font-family: sans-serif;
   line-height: 50px;
   color: blue;
 }
@@ -224,15 +224,15 @@ i {
   left: 0;
 
   li a {
-    margin-left: 50px;
+    margin-left: 10px;
     text-align: right;
     color: white;
     .link {
       color: black;
       text-align: center;
     }
-    .logo {
-      margin-left: 50px;
+    h1 {
+      margin: 20px;
     }
     .mobile-nav-enter-active,
     .mobile-nav-enter-active {
