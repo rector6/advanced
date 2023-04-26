@@ -334,12 +334,13 @@ ul li a {
 .Contact h3 {
   color: darkblue;
   font-size: 15px;
+  font-family: sans-serif;
   margin-bottom: 20px;
   position: relative;
 }
 .Contact ul li a {
   font-weight: 300;
-  font-family: cursive;
+  font-family: sans-serif;
   text-transform: capitalize;
   text-decoration: none;
   padding-top: 5px;
