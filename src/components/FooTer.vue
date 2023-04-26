@@ -399,7 +399,7 @@ ul li a {
   padding-top: 7px;
   font-size: 15px;
   color: white;
-  font-family: cursive;
+  font-family: sans-serif;
 }
 @media (max-width: 767px) {
   .footer-col {
