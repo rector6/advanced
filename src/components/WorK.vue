@@ -126,7 +126,6 @@ export default {};
   border-top-left-radius: 5em;
   border: none;
   box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.34);
-  margin: 20px;
 }
 .card-img {
   width: 50px;
@@ -167,10 +166,15 @@ h5 {
   font: 1em sans-serif;
   font-weight: lighter;
 }
-@media screen and (min-width: 600;) {
+@media screen and (max-width: 600) {
+  .section {
+    min-height: 80vh;
+    width: 100vw;
+  }
   .image {
     height: 200px;
-    width: 100%;
+    width: 200vw;
+    margin: 50px;
   }
 }
 </style>
