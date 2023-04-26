@@ -227,7 +227,7 @@ i {
   left: 0;
 
   li a {
-    margin-left: 10px;
+    margin-left: 30px;
     text-align: right;
     color: white;
     .link {
