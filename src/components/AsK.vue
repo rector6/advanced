@@ -1,5 +1,5 @@
 <template>
-  <div class="queston" id="question">
+  <div class="question" id="question">
     <div class="container">
       <h1 class="text-center q-head pt-4 pb-3">Frequently Asked Questions</h1>
       <div class="card-subbody">
@@ -22,4 +22,17 @@
 export default {};
 </script>
 
-<style></style>
+<style scoped>
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+.question {
+  width: 100%;
+  min-height: 40vh;
+  box-shadow: inset 0px -20px 50px -8px rgba(68, 61, 61, 0.58);
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+</style>
