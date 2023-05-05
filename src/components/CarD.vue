@@ -61,7 +61,7 @@ export default {};
 <style scoped>
 .category {
   min-height: 100vh;
-  width: 100vw;
+  width: 100%;
   justify-content: center;
   align-items: center;
 }

@@ -1,5 +1,5 @@
 <template>
-   <div class="queston" id="question">
+  <div class="queston" id="question">
     <div class="container">
       <h1 class="text-center q-head pt-4 pb-3">Frequently Asked Questions</h1>
       <div class="card-subbody">

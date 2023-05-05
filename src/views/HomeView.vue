@@ -39,8 +39,9 @@ export default {
 </script>
 <style>
 .home {
-  width: 100vw;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  background: blue;
+  /* how to remove width scroll */
+  overflow: hidden;
 }
 </style>

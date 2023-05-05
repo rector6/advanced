@@ -84,7 +84,7 @@ export default {};
 <style scoped>
 .account {
   min-height: 50vh;
-  width: 100vw;
+  width: 100%;
   justify-content: center;
   align-items: center;
 }

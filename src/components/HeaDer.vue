@@ -42,7 +42,7 @@ export default {};
   box-sizing: border-box;
 }
 .container {
-  width: 100vw;
+  width: 100%;
   min-height: 70vh;
   background-color: rgba(254, 254, 254, 255);
   padding: 20px;

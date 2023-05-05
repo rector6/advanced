@@ -25,7 +25,7 @@ export default {};
 <style scoped>
 .middle {
   min-height: 30vh;
-  width: 100vw;
+  width: 100%;
   background: #eaeaf209;
   box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.34);
 }
