@@ -22,7 +22,7 @@
           </div>
           <div class="col-6">
             <div class="image-area">
-              <img src="../assets/font-img.png" class="image-fluid" />
+              <img src="../assets/doc.jpg" class="image-fluid" />
             </div>
           </div>
         </div>
@@ -98,23 +98,43 @@ img.image-area .mage-fluid {
   margin-left: 100px;
   padding: 20px;
 }
-@media screen and (max-width: 600px) {
-  .banner {
+@media screen and (max-width: 615px) {
+  .container {
     width: 100vw;
     min-height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
   }
-  .banner-section {
+  .container .banner-section {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
-  .image-area {
+  .banner-section .image-fluid {
     width: 100%;
     justify-content: center;
     align-items: center;
   }
-  .image-fluid {
-    width: 300px;
+  .text-area {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .text-area p {
+    font-family: "Roboto", sans-serif;
+    margin: 20px;
+    line-height: 2em;
+    letter-spacing: 2px;
+  }
+  h1 {
+    float: left;
+    margin: 20px;
+  }
+  img {
+    width: 500px;
     margin-right: 10em;
   }
 }

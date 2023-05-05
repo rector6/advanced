@@ -124,7 +124,7 @@ li {
 li a {
   text-decoration: none;
   list-style: none;
-  font-size: 20px;
+  font-size: 15px;
   font-family: "poppins";
   color: blue;
   margin: 50px;
@@ -132,6 +132,7 @@ li a {
 ul li a {
   font-weight: 400;
   text-decoration: none;
+  font-family: "Oxygen", sans-serif;
   line-height: 50px;
   color: rgb(245, 238, 238);
   display: flex;

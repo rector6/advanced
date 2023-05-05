@@ -3,11 +3,11 @@
     <div class="container">
       <div class="row">
         <h1 class="work-text pb-4 pt-4">How it Works</h1>
-        <div class="section d-flex justify-content-center">
+        <div class="section-wrapper d-flex justify-content-center">
           <div class="image-section pb-5">
             <img src="../assets/doc.jpg" class="image" />
           </div>
-          <div class="col-6 pb-2">
+          <div class="col pb-2">
             <div class="card-section pb-5">
               <div
                 class="card"
@@ -95,8 +95,8 @@ export default {};
 
 <style scoped>
 .section {
-  width: 100%;
-  height: 60%;
+  width: 100vw;
+  height: 80vh;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -169,6 +169,29 @@ h5 {
     height: 200px;
     width: 200vw;
     margin: 50px;
+  }
+}
+@media screen and (max-width: 615px) {
+  .section {
+    width: 100vw;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+  }
+  .section-wrapper {
+    /* display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px; */
+    justify-content: center;
+    align-items: center;
+  }
+  .image img {
+    height: 200px;
+    width: 100%;
+    margin: 50px;
+    order: 1;
   }
 }
 </style>

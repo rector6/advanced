@@ -24,8 +24,9 @@ export default {};
 
 <style scoped>
 .middle {
-  min-height: 30vh;
   width: 100%;
+  min-height: 50vh;
+  padding: 60px;
   background: #eaeaf209;
   box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.34);
 }
@@ -33,6 +34,7 @@ export default {};
   font-size: 15px;
   text-align: center;
   padding: 20px;
+  font-family: "Roboto", sans-serif;
 }
 .btn1 {
   height: 45px;
