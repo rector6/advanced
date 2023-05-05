@@ -39,61 +39,63 @@
             </form>
           </div>
         </div>
-        <div class="col">
-          <div class="">
-            <img
-              src="../assets/SITEICON2.png"
-              class="img-foot"
-              width="100"
-              height="100"
-            />
+        <div class="address-wrapper">
+          <div class="col">
+            <div class="">
+              <img
+                src="../assets/SITEICON2.png"
+                class="img-foot"
+                width="100"
+                height="100"
+              />
+            </div>
           </div>
-        </div>
-        <div class="col-md">
-          <div class="company">
-            <h3>COMPANY</h3>
-            <ul>
-              <li><a href="">About Us</a></li>
-              <li><a href="">Blog</a></li>
-              <li><a href="">Learn More</a></li>
-              <li><a href="">Careers</a></li>
-            </ul>
+          <div class="col-md">
+            <div class="company">
+              <h3>COMPANY</h3>
+              <ul>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Learn More</a></li>
+                <li><a href="">Careers</a></li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="col-md">
-          <div class="Services">
-            <h3>SERVICES</h3>
-            <ul>
-              <li><a href="">Patients</a></li>
-              <li><a href="">Hospitals</a></li>
-              <li><a href="">Clinician</a></li>
-              <li><a href="">Labolatory</a></li>
-              <li><a href="">Pharmacy</a></li>
-              <li><a href="">Ambulance Service</a></li>
-            </ul>
+          <div class="col-md">
+            <div class="Services">
+              <h3>SERVICES</h3>
+              <ul>
+                <li><a href="">Patients</a></li>
+                <li><a href="">Hospitals</a></li>
+                <li><a href="">Clinician</a></li>
+                <li><a href="">Labolatory</a></li>
+                <li><a href="">Pharmacy</a></li>
+                <li><a href="">Ambulance Service</a></li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="col-md">
-          <div class="resources">
-            <h3>RESOURCES</h3>
-            <ul class="">
-              <li><a href="">FAQS</a></li>
-              <li><a href="">Partners</a></li>
-              <li><a href=""> Portal</a></li>
-              <li><a href="">Clinikli App</a></li>
-              <li><a href=""> Hospital</a></li>
-              <li><a href="">Teams Of Use</a></li>
-              <li><a href="">Privacy Policy</a></li>
-            </ul>
+          <div class="col-md">
+            <div class="resources">
+              <h3>RESOURCES</h3>
+              <ul class="">
+                <li><a href="">FAQS</a></li>
+                <li><a href="">Partners</a></li>
+                <li><a href=""> Portal</a></li>
+                <li><a href="">Clinikli App</a></li>
+                <li><a href=""> Hospital</a></li>
+                <li><a href="">Teams Of Use</a></li>
+                <li><a href="">Privacy Policy</a></li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="col-md-2">
-          <div class="Contact">
-            <h3>Contact US</h3>
-            <ul>
-              <li><a href="">info@gmail.com</a></li>
-              <li><a href="">(080-CLINIKLI)</a></li>
-            </ul>
+          <div class="col-md-2">
+            <div class="Contact">
+              <h3>Contact US</h3>
+              <ul>
+                <li><a href="">info@gmail.com</a></li>
+                <li><a href="">(080-CLINIKLI)</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -183,9 +185,10 @@ input {
 .footer {
   width: 100vw;
   min-height: 60vh;
+}
+.address-wrapper {
   display: flex;
-  background-color: #f8f8fa;
-  margin-top: 26px;
+  margin: 10px;
 }
 .company {
   justify-content: center;
@@ -394,13 +397,14 @@ ul li a {
   color: white;
   font-family: sans-serif;
 }
-@media (max-width: 767px) {
-  .footer-col {
+@media screen and (max-width: 615px) {
+  .address-wrapper {
     width: 100%;
-    margin-bottom: 30px;
+    min-height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
   }
-}
-@media only screen and (max-width: 745px) {
   .card {
     width: 150px;
     height: 100%;

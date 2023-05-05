@@ -40,7 +40,6 @@ export default {
 <style>
 .home {
   width: 100%;
-  background: blue;
   /* how to remove width scroll */
   overflow: hidden;
 }
